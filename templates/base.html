@@ -23,6 +23,9 @@
     {% endblock %}
 
     {% block corejs %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -36,11 +39,62 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Gems Of Paris | One of the biggest online shopping platform for gemstones {% block extra_title %}{% endblock %}</title>
+    <title>Gems Of Paris | One of the biggest online shopping platform for gemstones
+        {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
-    <header class="container-fluid fixed-top"></header>
+    <header class="container-fluid fixed-top bg-black">
+        <!--logo and brand name-->
+        <div class="row">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0  text-lg-left d-flex flex-row">
+                <a href="" class="text-decoration-none">
+                    <h3 class="fw-bold text-warning px-2 rounded-pill mt-1">GemsOfParis</h3>
+                </a>
+            </div>
+
+
+
+            <!--search bar -->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <form method="GET" action="#">
+                    <div class="input-group w-100">
+                        <input class="form-control border border-black rounded-1" type="text" name="q"
+                            placeholder="Search products">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-outline-white text-white" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--user, favorite and shopping bag icons-->
+
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 ">
+                <ul class="list-group list-unstyled list-group-horizontal float-end py-2">
+                    <li class="list-group-item"><a href=""  data-bs-toggle="dropdown" aria-expanded="false"><i
+                                class="fa-regular fa-user text-black"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end border">
+                            <li class="list-group-item fw-bold"><a href="" class="text-decoration-none" ><button class="dropdown-item fw-bold"
+                                        type="button">Login</button></a></li>
+                            <li class="list-group-item "><a href="" class="text-decoration-none"><button class="dropdown-item fw-bold"
+                                        type="button">Register</button></a></li>
+                        </ul>
+
+                    </li>
+                    <li class="list-group-item"><a href=""><i class="fa-regular fa-heart text-black"></i></a>
+                    </li>
+                    <li class="list-group-item py-2 text-center"><a href=""><i
+                                class="fa-solid fa-basket-shopping text-black"></i></a>
+                        <span class="text-danger">0.00</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
 
     {% if messages %}
     <div class="message-container"></div>
