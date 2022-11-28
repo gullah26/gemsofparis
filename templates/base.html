@@ -176,8 +176,37 @@
     {% block postloadjs %}
     {% endblock %}
 
-    <footer class="pt-3 mt-4 text-muted border-top text-center">
-        &copy; 2022
+    {% block deliverythreshold %}
+    <div  class="row text-center bg-black">
+        <div class="col text-warning">
+            <h5 class="my-1 fw-bold">Free shipping and returns on orders over
+                ${{ free_delivery_threshold }} !<i class="fas fa-shipping-fast text-success"></i></h5>
+        </div>
+    {% endblock %}
+
+    <footer class="p-2 m-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <small class="text-white text-center">
+                        &copy; Copyright 2022. Seun Olusola Ajetomobi.
+                    </small>
+
+                </div>
+
+                <div class="col-4">
+                    
+
+                </div>
+
+                <div class="col-4">
+                    
+
+                </div>
+            </div>
+
+        </div>
+        
     </footer>
 
 </body>
