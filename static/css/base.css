@@ -18,7 +18,7 @@ body {
 }
 
 .logo-font {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .main-logo-link {
