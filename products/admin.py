@@ -4,7 +4,7 @@ from .models import Product, Category
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
-    readonly_fields = ['img_preview']   #  to preview image in admin area
+    readonly_fields = ['image_preview'] #  to preview image in admin area
 
     list_display = (
         'sku',
@@ -22,6 +22,7 @@ class CategoryAdmin(admin.ModelAdmin):
         'friendly_name',
         'name',
     )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
