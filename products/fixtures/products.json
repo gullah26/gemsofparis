@@ -1,0 +1,1201 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Alexandrite",
+        "description": "10 x 7mm Color Blue Emerald Lab Created Alexandrite",
+        "price": 219.99,
+        "category": 1,
+        "rating": 94.6,
+        "image": "DP0709201205510679M.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001600425",
+        "name": "Alexandrite",
+        "description": "6 x 5mm Color Blue Emerald Lab Created Alexandrite",
+        "price": 155.99,
+        "category": 1,
+        "rating": 93.2,
+        "image": "DP0113201617034987M.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001730010",
+        "name": "Alexandrite",
+        "description": "8 x 6mm Color Change Emerald Lab Created Alexandrite",
+        "price": 125.99,
+        "category": 1,
+        "rating": 92.7,
+        "image": "DP1230201417013175M.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001890157",
+        "name": "Alexandrite",
+        "description": "5 x 6mm  Emerald Lab Created Alexandrite",
+        "price": 769.99,
+        "category": 1,
+        "rating": 93.0,
+        "image": "DP0716201503423610M.jpg"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002111605",
+        "name": "Alexandrite",
+        "description": "4 x 8mm Color Change Alexandrite",
+        "price": 122.99,
+        "category": 1,
+        "rating": 85.0,
+        "image": "DP1115201210371197C.jpg"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002260206",
+        "name": "Amethyst",
+        "description": "9 x 7mm Clear Cut Alexandrite",
+        "price": 110.99,
+        "category": 2,
+        "rating": 94.5,
+        "image": "DP0624201520422666C.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002440521",
+        "name": "Amethyst",
+        "description": "6 x 7mm Polar Mine Alexandrite",
+        "price": 799.0,
+        "category": 2,
+        "rating": 82.4,
+        "image": "DP0226201317034754M.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002601115",
+        "name": "Amethyst",
+        "description": "10 x 5mm Tropical Rebechite Alexandrite",
+        "price": 456.99,
+        "category": 2,
+        "rating": 90.5,
+        "image": "DP0926201317071162M.jpg"
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002690715",
+        "name": "Amethyst",
+        "description": "5 x 9mm Blue Aqua Alexandrite",
+        "price": 109.99,
+        "category": 2,
+        "rating": 91.7,
+        "image": "DP1020201517025390M.jpg"
+    }
+}, {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002701115",
+        "name": "Amethyst",
+        "description": "7 x 4mm Ignious Alexandrite",
+        "price": 213.99,
+        "category": 2,
+        "rating": 84.4,
+        "image": "DP0418201317011949M.jpg"
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002761055",
+        "name": "Aquamarine",
+        "description": "6 x 5mm Sedimentary Alexandrite",
+        "price": 469.99,
+        "category": 3,
+        "rating": 73.0,
+        "image": "0900631B81B0C2D9M.jpg"
+    }
+}, {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820069",
+        "name": "Aquamarine",
+        "description": "5 x 3mm Deep Cut Alexandrite",
+        "price": 619.99,
+        "category": 3,
+        "rating": 54.6,
+        "image": "DP0510201317010521M.jpg"
+    }
+}, {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002820147",
+        "name": "Aquamarine",
+        "description": "5 x 5mm Sandy Alexandrite",
+        "price": 720.0,
+        "category": 3,
+        "rating": 73.2,
+        "image": "DP0430201405053680M.jpg"
+    }
+}, {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002910572",
+        "name": "Aquamarine",
+        "description": "4 x 9mm Glacier Alexandrite",
+        "price": 626.99,
+        "category": 3,
+        "rating": 74.7,
+        "image": "0900631B81C9387BM.jpg"
+    }
+}, {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002990740",
+        "name": "Aquamarine",
+        "description": "3 x 4mm Ignious Alexandrite",
+        "price": 848.99,
+        "category": 3,
+        "rating": 64.8,
+        "image": "DP1029201317111469M.jpg"
+    }
+}, {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003050248",
+        "name": "Citrine",
+        "description": "4 x 8mm Sahara  Alexandrite",
+        "price": 665.99,
+        "category": 4,
+        "rating": 71.4,
+        "image": "DP0918201520303373C.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003070787",
+        "name": "Citrine",
+        "description": "7 x 9mm Riff Yellow  Alexandrite",
+        "price": 783.99,
+        "category": 4,
+        "rating": 54.4,
+        "image": "DP1119201520340305C.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090182",
+        "name": "Citrine",
+        "description": "3 x 5mm Radial Crystal  Alexandrite",
+        "price": 959.99,
+        "category": 4,
+        "rating": 94.2,
+        "image": "DP0807201317072274M.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090186",
+        "name": "Citrine",
+        "description": "3 x 5mm Radial Crystalline  Alexandrite",
+        "price": 690.99,
+        "category": 4,
+        "rating": 75.0,
+        "image": "DP0807201317072924M.jpg"
+    }
+}, {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003161326",
+        "name": "Citrine",
+        "description": "4 x 11mm Egyptian Azure  Alexandrite",
+        "price": 120.99,
+        "category": 4,
+        "rating": 90.4,
+        "image": "DP0821201317103183M.jpg"
+    }
+}, {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003230723",
+        "name": "Diamond",
+        "description": "8.0 x 8.0mm Colorless Round Diamond",
+        "price": 960.99,
+        "category": 26,
+        "rating": 99.3,
+        "image": "0900631B81D676AEM.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003270936",
+        "name": "Diamond",
+        "description": "5.0 x 5.0 mm Colorless Triangle Cut Diamond",
+        "price": 976.99,
+        "category": 26,
+        "rating": 95.0,
+        "image": "DP0917201317033820M.jpg"
+    }
+}, {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003360384",
+        "name": "Diamond",
+        "description": "6.0 x 6.0 mm Colorless Square Cut Diamond",
+        "price": 959.99,
+        "category": 26,
+        "rating": 95.8,
+        "image": "DP0927201317061305M.jpg"
+    }
+}, {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003440111",
+        "name": "Diamond",
+        "description": "8.0 x 4.0 mm Colorless Cushion Cut Diamond",
+        "price": 882.0,
+        "category": 26,
+        "rating": 93.8,
+        "image": "DP1023201317051585M.jpg"
+    }
+}, {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003540313",
+        "name": "Diamond",
+        "description": "3.0 x 4.0 mm Colorless Lazer Cut Diamond",
+        "price": 716.99,
+        "category": 26,
+        "rating": 98.0,
+        "image": "DP1108201317050996M.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560513",
+        "name": "Emerald",
+        "description": "10.8 x 9.3mm Super Premium Emerald",
+        "price": 521.99,
+        "category": 5,
+        "rating": 94.4,
+        "image": "DP0219201502115503C.jpg"
+    }
+}, {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560948",
+        "name": "Emerald",
+        "description": "8.8 x 5.3mm Super Premium Emerald",
+        "price": 838.99,
+        "category": 5,
+        "rating": 95.0,
+        "image": "DP0610201317080834M.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003570628",
+        "name": "Emerald",
+        "description": "8.3 x 5.1mm Super Premium Emerald",
+        "price": 713.99,
+        "category": 5,
+        "rating": 84.3,
+        "image": "0900631B818ABCB9M.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003620308",
+        "name": "Emerald",
+        "description": "5.3 x 3.1mm Super Premium Emerald",
+        "price": 901.99,
+        "category": 5,
+        "rating": 94.1,
+        "image": "DP0422201517022488M.jpg"
+    }
+}, {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690115",
+        "name": "Emerald",
+        "description": "5.3 x 3.1mm Super Premium Emerald",
+        "price": 992.99,
+        "category": 5,
+        "rating": 89.0,
+        "image": "DP0113201417050002M.jpg"
+    }
+}, {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690116",
+        "name": "Garnet Red",
+        "description": "7.1 x 5.4mm Red Rhodolite Garnet",
+        "price": 329.99,
+        "category": 6,
+        "rating": 74.0,
+        "image": "DP0213201417022274M.jpg"
+    }
+}, {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003780391",
+        "name": "Garnet Red",
+        "description": "7.1 x 5.4mm Red Rhodolite Garnet",
+        "price": 395.99,
+        "category": 6,
+        "rating": 75.8,
+        "image": "DP1028201517024563M.jpg"
+    }
+}, {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003790542",
+        "name": "Garnet Red",
+        "description": "8.5 x 5.9mm Red Rhodolite Garnet",
+        "price": 258.99,
+        "category": 6,
+        "rating": 74.5,
+        "image": "DP0422201617033665M.jpg"
+    }
+}, {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003831225",
+        "name": "Garnet Red",
+        "description": "6.5 x 4.9mm Red Rhodolite Garnet",
+        "price": 393.99,
+        "category": 6,
+        "rating": 75.5,
+        "image": "DP0915201413433903C.jpg"
+    }
+}, {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003861402",
+        "name": "Garnet Red",
+        "description": "4.5 x 7.9mm Red Rhodolite Garnet",
+        "price": 250.99,
+        "category": 6,
+        "rating": 74.2,
+        "image": "DP0430201405113681M.jpg"
+    }
+}, {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003910638",
+        "name": "Jade",
+        "description": "4.3 x 6.9mm Jade Trau Alure Solitaire",
+        "price": 123.99,
+        "category": 28,
+        "rating": 74.6,
+        "image": "DP0401201417083996M.jpg"
+    }
+}, {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003950574",
+        "name": "Jade",
+        "description": "3.3 x 5.9mm Jade Trau Alure Solitaire",
+        "price": 111.99,
+        "category": 28,
+        "rating": 74.0,
+        "image": "DP0828201517030241M.jpg"
+    }
+}, {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003950576",
+        "name": "Jade",
+        "description": "3.4 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 160.99,
+        "category": 28,
+        "rating": 74.5,
+        "image": "DP0403201417141773M.jpg"
+    }
+}, {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003960062",
+        "name": "Jade",
+        "description": "3.4 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 141.99,
+        "category": 28,
+        "rating": 73.8,
+        "image": "DP0715201417203832M.jpg"
+    }
+}, {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003960682",
+        "name": "Jade",
+        "description": "3.3 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 171.99,
+        "category": 28,
+        "rating": 75.0,
+        "image": "DP0430201405213832M.jpg"
+    }
+}, {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003960775",
+        "name": "Morganite",
+        "description": "8mm Peach Round Morganite",
+        "price": 841.99,
+        "category": 7,
+        "rating": 73.0,
+        "image": "DP0430201405232442M.jpg"
+    }
+}, {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003990736",
+        "name": "Morganite",
+        "description": "9 x 7mm Premium Pink Radiant Morganite",
+        "price": 718.99,
+        "category": 7,
+        "rating": 74.7,
+        "image": "DP0519201417080443M.jpg"
+    }
+}, {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003990746",
+        "name": "Morganite",
+        "description": "6 x 5mm Premium Pink Radiant Morganite",
+        "price": 115.99,
+        "category": 7,
+        "rating": 74.0,
+        "image": "0900631B8140782DM.jpg"
+    }
+}, {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004111503",
+        "name": "Morganite",
+        "description": "7 x 7mm Premium Pink Radiant Morganite",
+        "price": 860.99,
+        "category": 7,
+        "rating": 74.9,
+        "image": "DP0421201520311379C.jpg"
+    }
+}, {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004230059",
+        "name": "Morganite",
+        "description": "8 x 7mm Premium Pink Radiant Morganite",
+        "price": 941.0,
+        "category": 7,
+        "rating": 84.6,
+        "image": "DP0716201503421212M.jpg"
+    }
+}, {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004310089",
+        "name": "Peridot",
+        "description": "6 x 9mm Premium Pear Lime Radiant Peridot",
+        "price": 762.99,
+        "category": 8,
+        "rating": 74.5,
+        "image": "DP0722201417110136M.jpg"
+    }
+}, {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004610254",
+        "name": "Peridot",
+        "description": "8 x 2mm Premium Lime Radiant Peridot",
+        "price": 748.99,
+        "category": 8,
+        "rating": 65.0,
+        "image": "DP1017201420511297C.jpg"
+    }
+}, {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004650050",
+        "name": "Peridot",
+        "description": "5 x 6mm Premium Lime Radiant Peridot",
+        "price": 734.99,
+        "category": 8,
+        "rating": 83.0,
+        "image": "DP0919201417043014M.jpg"
+    }
+}, {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004821375",
+        "name": "Peridot",
+        "description": "7 x 6mm Premium Lime Radiant Peridot",
+        "price": 660.99,
+        "category": 8,
+        "rating": 84.0,
+        "image": "DP1015201417131329M.jpg"
+    }
+}, {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004900522",
+        "name": "Peridot",
+        "description": "9 x 6mm Premium Lime Radiant Peridot",
+        "price": 966.99,
+        "category": 8,
+        "rating": 84.6,
+        "image": "DP1202201412542357M.jpg"
+    }
+}, {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004910158",
+        "name": "Ruby",
+        "description": "6.8 x 5.3mm Pear Greenland Ruby",
+        "price": 239.99,
+        "category": 9,
+        "rating": 73.8,
+        "image": "DP1019201520531375C.jpg"
+    }
+}, {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004910477",
+        "name": "Ruby",
+        "description": "7.8 x 6.3mm Round Greenland Ruby",
+        "price": 288.99,
+        "category": 9,
+        "rating": 85.0,
+        "image": "DP1124201417012025M.jpg"
+    }
+}, {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004940703",
+        "name": "Ruby",
+        "description": "8.8 x 7.3mm Oval Greenland Ruby",
+        "price": 353.99,
+        "category": 9,
+        "rating": 83.7,
+        "image": "DP1220201417020921M.jpg"
+    }
+}, {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004991006",
+        "name": "Ruby",
+        "description": "7.3 x 7.3mm Oval Greenland Ruby",
+        "price": 226.99,
+        "category": 9,
+        "rating": 85.0,
+        "image": "DP0414201520383920C.jpg"
+    }
+}, {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5004991162",
+        "name": "Ruby",
+        "description": "6.3 x 5.3mm  Greenland Ruby",
+        "price": 228.99,
+        "category": 9,
+        "rating": 84.5,
+        "image": "DP0428201617042837M.jpg"
+    }
+}, {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005000046",
+        "name": "Blue Sapphire",
+        "description": "6mm Premium Blue Round Sapphire",
+        "price": 115.99,
+        "category": 10,
+        "rating": 73.9,
+        "image": "DP0113201523230512M.jpg"
+    }
+}, {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005070254",
+        "name": "Blue Sapphire",
+        "description": "7mm Premium Blue  Sapphire",
+        "price": 166.0,
+        "category": 10,
+        "rating": 74.7,
+        "image": "DP0323201517042926M.jpg"
+    }
+}, {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005071145",
+        "name": "Blue Sapphire",
+        "description": "6.5mm Premium Pear Blue  Sapphire",
+        "price": 145.0,
+        "category": 10,
+        "rating": 73.3,
+        "image": "DP0204201517030626M.jpg"
+    }
+}, {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005140282",
+        "name": "Blue Sapphire",
+        "description": "7.5mm Premium Square Cut Blue  Sapphire",
+        "price": 111.99,
+        "category": 10,
+        "rating": 74.0,
+        "image": "DP0224201517023517M.jpg"
+    }
+}, {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005200166",
+        "name": "Blue Sapphire",
+        "description": "8.5mm Premium Emerald Cut Blue  Sapphire",
+        "price": 165.99,
+        "category": 10,
+        "rating": 74.4,
+        "image": "DP0320201517010207M.jpg"
+    }
+}, {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005210241",
+        "name": "Pink Sapphire",
+        "description": "8 x 7mm Pink Sapphire",
+        "price": 144.99,
+        "category": 19,
+        "rating": 74.5,
+        "image": "DP0302201517030242M.jpg"
+    }
+}, {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005280104",
+        "name": "Pink Sapphire",
+        "description": "5 x 7mm Pink Sapphire",
+        "price": 131.99,
+        "category": 19,
+        "rating": 75.0,
+        "image": "DP0401201517030651M.jpg"
+    }
+}, {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005310360",
+        "name": "Pink Sapphire",
+        "description": "7 x 6mm Pink Sapphire",
+        "price": 169.99,
+        "category": 19,
+        "rating": 65.0,
+        "image": "DP0408201517021489M.jpg"
+    }
+}, {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005330595",
+        "name": "Pink Sapphire",
+        "description": "10 x 6mm Pink Sapphire",
+        "price": 219.99,
+        "category": 19,
+        "rating": 84.9,
+        "image": "DP0527201520374912C.jpg"
+    }
+}, {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005330596",
+        "name": "Pink Sapphire",
+        "description": "6 x 7mm Pink Sapphire",
+        "price": 169.99,
+        "category": 19,
+        "rating": 64.0,
+        "image": "DP0213201417021174M.jpg"
+    }
+}, {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005430914",
+        "name": "Purple Sapphire",
+        "description": "8 x 7mm Purple Pearl Sapphire",
+        "price": 230.99,
+        "category": 18,
+        "rating": 84.0,
+        "image": "DP0515201517013144M.jpg"
+    }
+}, {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005430944",
+        "name": "Purple Sapphire",
+        "description": "4 x 7mm Purple Round Sapphire",
+        "price": 172.99,
+        "category": 18,
+        "rating": 84.5,
+        "image": "DP0515201517012588M.jpg"
+    }
+}, {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005510265",
+        "name": "Purple Sapphire",
+        "description": "3 x 7mm Purple  Sapphire",
+        "price": 150.99,
+        "category": 18,
+        "rating": 84.7,
+        "image": "DP0526201517022624M.jpg"
+    }
+}, {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005520201",
+        "name": "Purple Sapphire",
+        "description": "4 x 5mm Purple  Sapphire",
+        "price": 142.0,
+        "category": 18,
+        "rating": 84.3,
+        "image": "DP0519201517025089M.jpg"
+    }
+}, {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005520205",
+        "name": "Purple Sapphire",
+        "description": "8 x 4mm Purple  Sapphire",
+        "price": 108.99,
+        "category": 18,
+        "rating": 84.2,
+        "image": "0900631B8142A3AFM.jpg"
+    }
+}, {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005630545",
+        "name": "Yellow Sapphire",
+        "description": "7 x 6mm Yellow Sapphire",
+        "price": 208.99,
+        "category": 29,
+        "rating": 84.3,
+        "image": "DP0608201517025373M.jpg"
+    }
+}, {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005630605",
+        "name": "Yellow Sapphire",
+        "description": "5 x 6mm Round Yellow Sapphire",
+        "price": 260.99,
+        "category": 29,
+        "rating": 84.6,
+        "image": "DP0608201517035688M.jpg"
+    }
+}, {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005630637",
+        "name": "Yellow Sapphire",
+        "description": "5 x 9mm Oval Yellow Sapphire",
+        "price": 160.99,
+        "category": 29,
+        "rating": 84.7,
+        "image": "DP0608201517035747M.jpg"
+    }
+}, {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005630638",
+        "name": "Yellow Sapphire",
+        "description": "7 x 9mm Square Cut Yellow Sapphire",
+        "price": 160.99,
+        "category": 29,
+        "rating": 84.2,
+        "image": "DP0608201517035763M.jpg"
+    }
+}, {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005650677",
+        "name": "Yellow Sapphire",
+        "description": "7 x 9mm Emerald Cut Yellow Sapphire",
+        "price": 348.99,
+        "category": 29,
+        "rating": 84.4,
+        "image": "DP0612201517032350M.jpg"
+    }
+}, {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005700140",
+        "name": "Spinel",
+        "description": "5mm Carbon Black Emerald Spinel",
+        "price": 350.99,
+        "category": 11,
+        "rating": 85.0,
+        "image": "DP0831201520432399C.jpg"
+    }
+}, {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005740430",
+        "name": "Spinel",
+        "description": "7mm Carbon Black Pearl Spinel",
+        "price": 236.99,
+        "category": 11,
+        "rating": 84.7,
+        "image": "DP0526201623053167C.jpg"
+    }
+}, {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005740561",
+        "name": "Spinel",
+        "description": "6mm Carbon Black Spinel",
+        "price": 260.99,
+        "category": 11,
+        "rating": 84.6,
+        "image": "DP0623201517030671M.jpg"
+    }
+}, {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005740634",
+        "name": "Spinel",
+        "description": "7mm Carbon Black Round Spinel",
+        "price": 160.99,
+        "category": 11,
+        "rating": 84.5,
+        "image": "DP0623201517030686M.jpg"
+    }
+}, {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005760088",
+        "name": "Spinel",
+        "description": "7mm Carbon Black Round Spinel",
+        "price": 229.0,
+        "category": 11,
+        "rating": 85.0,
+        "image": "DP0702201517031050M.jpg"
+    }
+}, {
+    "pk": 81,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005810108",
+        "name": "Sunstone",
+        "description": "10.1x8.2mm Unheated Cognac Cushion Zircon Sunstone",
+        "price": 160.99,
+        "category": 27,
+        "rating": 84.7,
+        "image": "DP0702201517033643M.jpg"
+    }
+}, {
+    "pk": 82,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005820197",
+        "name": "Sunstone",
+        "description": "8.1 x 8.2mm Unheated Cognac Cushion Zircon Sunstone",
+        "price": 128.99,
+        "category": 27,
+        "rating": 84.9,
+        "image": "DP1008201517035763M.jpg"
+    }
+}, {
+    "pk": 83,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005840598",
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac Oval Zircon Sunstone",
+        "price": 127.0,
+        "category": 27,
+        "rating": 85.0,
+        "image": "DP0716201517033520M.jpg"
+    }
+}, {
+    "pk": 84,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005840776",
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac  Gircon Sunstone",
+        "price": 229.99,
+        "category": 27,
+        "rating": 85.3,
+        "image": "DP0717201517041911M.jpg"
+    }
+}, {
+    "pk": 85,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005850180",
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac  Hircon Sunstone",
+        "price": 138.99,
+        "category": 27,
+        "rating": 84.2,
+        "image": "DP0527201517022924M.jpg"
+    }
+}, {
+    "pk": 86,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005851218",
+        "name": "Tanzanite",
+        "description": "9mm Purple Oval Tanzanite",
+        "price": 126.99,
+        "category": 12,
+        "rating": 84.1,
+        "image": "DP0714201504201760M.jpg"
+    }
+}, {
+    "pk": 87,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005860175",
+        "name": "Tanzanite",
+        "description": "12mm Purple Tanzanite",
+        "price": 158.99,
+        "category": 12,
+        "rating": 54.8,
+        "image": "DP0710201517034239M.jpg"
+    }
+}, {
+    "pk": 88,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005860263",
+        "name": "Tanzanite",
+        "description": "11mm Purple Tanzanite",
+        "price": 108.99,
+        "category": 12,
+        "rating": 94.0,
+        "image": "DP0805201520415923C.jpg"
+    }
+}, {
+    "pk": 89,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005870183",
+        "name": "Tanzanite",
+        "description": "7mm Purple Tanzanite",
+        "price": 152.99,
+        "category": 12,
+        "rating": 85.0,
+        "image": "DP0724201517031934M.jpg"
+    }
+}, {
+    "pk": 90,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005870599",
+        "name": "Tanzanite",
+        "description": "9mm Purple Tanzanite",
+        "price": 124.99,
+        "category": 12,
+        "rating": 84.4,
+        "image": "DP0721201517041500M.jpg"
+    }
+}, {
+    "pk": 91,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005870638",
+        "name": "Topaz",
+        "description": "8 x 5mm London Blue  Topaz",
+        "price": 133.99,
+        "category": 13,
+        "rating": 84.4,
+        "image": "DP0724201517024000M.jpg"
+    }
+}, {
+    "pk": 92,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005910565",
+        "name": "Topaz",
+        "description": "9 x 5mm Roman Blue  Topaz",
+        "price": 150.99,
+        "category": 13,
+        "rating": 84.3,
+        "image": "DP0731201517031510M.jpg"
+    }
+}, {
+    "pk": 93,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005930313",
+        "name": "Topaz",
+        "description": "10 x 5mm Indian Blue  Topaz",
+        "price": 170.99,
+        "category": 13,
+        "rating": 84.9,
+        "image": "DP0807201517015600M.jpg"
+    }
+}, {
+    "pk": 94,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005940242",
+        "name": "Topaz",
+        "description": "11 x 6mm Round Blue  Topaz",
+        "price": 181.99,
+        "category": 13,
+        "rating": 83.7,
+        "image": "DP0731201517024285M.jpg"
+    }
+}, {
+    "pk": 95,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005940299",
+        "name": "Topaz",
+        "description": "8 x 6mm  Blue  Topaz",
+        "price": 142.99,
+        "category": 13,
+        "rating": 85.0,
+        "image": "DP0810201517010458M.jpg"
+    }
+}, {
+    "pk": 96,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005941612",
+        "name": "Tourmaline",
+        "description": "10 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 992.99,
+        "category": 14,
+        "rating": 85.0,
+        "image": "DP0805201517023421M.jpg"
+    }
+}, {
+    "pk": 97,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005980058",
+        "name": "Tourmaline",
+        "description": "8 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 826.99,
+        "category": 14,
+        "rating": 87.0,
+        "image": "DP0917201520473680C.jpg"
+    }
+}, {
+    "pk": 98,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005980146",
+        "name": "Tourmaline",
+        "description": "9 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 758.99,
+        "category": 14,
+        "rating": 84.5,
+        "image": "DP0820201517013830M.jpg"
+    }
+}, {
+    "pk": 99,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5006070077",
+        "name": "Tourmaline",
+        "description": "9 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 829.99,
+        "category": 14,
+        "rating": 84.4,
+        "image": "DP0903201517023529M.jpg"
+    }
+}, {
+    "pk": 100,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5006081758",
+        "name": "Tourmaline",
+        "description": "12 x 8mm Pear Lab Created Emerald Tourmaline",
+        "price": 953.99,
+        "category": 14,
+        "rating": 84.8,
+        "image": "DP0908201517020936M.jpg"
+    }
+}]

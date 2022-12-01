@@ -1,0 +1,204 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "alexandrite",
+        "friendly_name": "Alexandrite"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "amethyst",
+        "friendly_name": "Amethyst"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "aquamarine",
+        "friendly_name": "Aquamarine"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "citrine",
+        "friendly_name": "Citrine"
+    }
+}, {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "emerald",
+        "friendly_name": "Emerald"
+    }
+}, {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "garnet",
+        "friendly_name": "Garnet"
+    }
+}, {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "morganite",
+        "friendly_name": "Morganite"
+    }
+}, {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "peridot",
+        "friendly_name": "Peridot"
+    }
+}, {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "ruby",
+        "friendly_name": "Ruby"
+    }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "sapphire",
+        "friendly_name": "Sapphire"
+    }
+}, {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "spinel",
+        "friendly_name": "Spinel"
+    }
+}, {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+        "name": "tanzanites",
+        "friendly_name": "Tanzanites"
+    }
+}, {
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+        "name": "topaz",
+        "friendly_name": "Topaz"
+    }
+}, {
+    "pk": 14,
+    "model": "products.category",
+    "fields": {
+        "name": "tourmaline",
+        "friendly_name": "Tourmaline"
+    }
+}, {
+    "pk": 15,
+    "model": "products.category",
+    "fields": {
+        "name": "blue",
+        "friendly_name": "Blue"
+    }
+}, {
+    "pk": 16,
+    "model": "products.category",
+    "fields": {
+        "name": "teal",
+        "friendly_name": "Teal"
+    }
+},  {
+    "pk": 17,
+    "model": "products.category",
+    "fields": {
+        "name": "peach",
+        "friendly_name": "Peach"
+    }
+}, {
+    "pk": 18,
+    "model": "products.category",
+    "fields": {
+        "name": "purple",
+        "friendly_name": "Purple"
+    }
+}, {
+    "pk": 19,
+    "model": "products.category",
+    "fields": {
+        "name": "pink",
+        "friendly_name": "Pink"
+    }
+}, {
+    "pk": 20,
+    "model": "products.category",
+    "fields": {
+        "name": "round",
+        "friendly_name": "Round"
+    }
+}, {
+    "pk": 21,
+    "model": "products.category",
+    "fields": {
+        "name": "oval",
+        "friendly_name": "Oval"
+    }
+}, {
+    "pk": 22,
+    "model": "products.category",
+    "fields": {
+        "name": "emeralds",
+        "friendly_name": "Emeralds"
+    }
+}, {
+    "pk": 23,
+    "model": "products.category",
+    "fields": {
+        "name": "cushion",
+        "friendly_name": "Cushion"
+    }
+}, {
+    "pk": 24,
+    "model": "products.category",
+    "fields": {
+        "name": "new",
+        "friendly_name": "New"
+    }
+}, {
+    "pk": 25,
+    "model": "products.category",
+    "fields": {
+        "name": "deal",
+        "friendly_name": "Deal"
+    }
+},  {
+    "pk": 26,
+    "model": "products.category",
+    "fields": {
+        "name": "diamond",
+        "friendly_name": "Diamond"
+    }
+},  {
+    "pk": 27,
+    "model": "products.category",
+    "fields": {
+        "name": "sunstone",
+        "friendly_name": "Sunstone"
+    }
+},  {
+    "pk": 28,
+    "model": "products.category",
+    "fields": {
+        "name": "jade",
+        "friendly_name": "Jade"
+    }
+}, {
+    "pk": 29,
+    "model": "products.category",
+    "fields": {
+        "name": "yellow",
+        "friendly_name": "Yellow"
+    }
+}]
