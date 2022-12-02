@@ -664,7 +664,7 @@
     "fields": {
         "sku": "pp5005000046",
         "name": "Blue Sapphire",
-        "description": "6mm Premium Blue Round Sapphire",
+        "description": "6 x 9mm Premium Blue Round Sapphire",
         "price": 115.99,
         "category": 10,
         "rating": 73.9,
@@ -676,7 +676,7 @@
     "fields": {
         "sku": "pp5005070254",
         "name": "Blue Sapphire",
-        "description": "7mm Premium Blue  Sapphire",
+        "description": "7 x 5mm Premium Blue  Sapphire",
         "price": 166.0,
         "category": 10,
         "rating": 74.7,
@@ -688,7 +688,7 @@
     "fields": {
         "sku": "pp5005071145",
         "name": "Blue Sapphire",
-        "description": "6.5mm Premium Pear Blue  Sapphire",
+        "description": "6.5 x 7mm Premium Pear Blue  Sapphire",
         "price": 145.0,
         "category": 10,
         "rating": 73.3,
@@ -700,7 +700,7 @@
     "fields": {
         "sku": "pp5005140282",
         "name": "Blue Sapphire",
-        "description": "7.5mm Premium Square Cut Blue  Sapphire",
+        "description": "7.5 x 7mm Premium Square Cut Blue Sapphire",
         "price": 111.99,
         "category": 10,
         "rating": 74.0,
@@ -712,7 +712,7 @@
     "fields": {
         "sku": "pp5005200166",
         "name": "Blue Sapphire",
-        "description": "8.5mm Premium Emerald Cut Blue  Sapphire",
+        "description": "8.5 x 5mm Premium Emerald Cut Blue Sapphire",
         "price": 165.99,
         "category": 10,
         "rating": 74.4,

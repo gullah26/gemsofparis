@@ -65,8 +65,8 @@
     "pk": 10,
     "model": "products.category",
     "fields": {
-        "name": "sapphire",
-        "friendly_name": "Sapphire"
+        "name": "blue",
+        "friendly_name": "Blue"
     }
 }, {
     "pk": 11,
@@ -79,8 +79,8 @@
     "pk": 12,
     "model": "products.category",
     "fields": {
-        "name": "tanzanites",
-        "friendly_name": "Tanzanites"
+        "name": "tanzanite",
+        "friendly_name": "Tanzanite"
     }
 }, {
     "pk": 13,
@@ -100,8 +100,8 @@
     "pk": 15,
     "model": "products.category",
     "fields": {
-        "name": "blue",
-        "friendly_name": "Blue"
+        "name": "sales",
+        "friendly_name": "Sales"
     }
 }, {
     "pk": 16,
