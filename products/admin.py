@@ -3,9 +3,8 @@ from .models import Product, Category
 
 # Register your models here.
 
-class ProductAdmin(admin.ModelAdmin):
-    readonly_fields = ['image_preview'] #  to preview image in admin area
 
+class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
@@ -16,6 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
     )
 
     ordering = ('sku',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
