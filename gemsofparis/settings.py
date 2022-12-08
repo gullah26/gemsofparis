@@ -78,6 +78,9 @@ TEMPLATES = [
     },
 ]
 
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
 #  allauth authentication backend
 
 AUTHENTICATION_BACKENDS = (

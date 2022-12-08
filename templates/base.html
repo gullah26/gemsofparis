@@ -28,10 +28,10 @@
     {% endblock %}
 
     {% block corejs %}
-    <script  src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-    <script  src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -74,6 +74,7 @@
                     <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="text-center">
                             <div><i class="far fa-user fa-lg"></i></div>
+                            <p class="my-0">My Account</p>
                         </div>
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -93,26 +94,26 @@
                 <li class="list-inline-item mt-0">
                     <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link" href="{% url 'view_bag' %}">
                         <div class="text-center">
-                            <div><i class="far fa-heart fa-lg"></i></div>                            
+                            <div><i class="far fa-heart fa-lg"></i></div> 
+                            <p class="my-0">Favorite</p>                           
                         </div>
                     </a>
                 </li>
 
 
                 <li class="list-inline-item">
-                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link" href="">
-                        <div class="text-center d-flex">
-                            <div class="row">
-                                <div class="col">
-                                    <i class="fas fa-shopping-basket fa-lg"></i>
-                                </div>
+                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
+                        href="{% url 'view_bag' %}">
+                        <div class="text-center">
                             <span class="badge badge-pill badge-danger badge-notification">{{ product_count }}</span>
-                            <span class="text-danger">{% if grand_total %}
+                            <div><i class="fas fa-shopping-basket fa-lg"></i></div>
+                            <p class="my-0 text-danger">
+                                {% if grand_total %}
                                 ${{ grand_total|floatformat:2 }}
                                 {% else %}
                                 $0.00
                                 {% endif %}
-                            </span>
+                            </p>
                         </div>
                     </a>
                 </li>
@@ -132,8 +133,23 @@
 </header>
 
 {% if messages %}
-    <div class="message-container"></div>
+<div class="message-container">
+    {% for message in messages %}
+    {% with message.level as level %}
+    {% if level == 40 %}
+    {% include 'includes/toasts/toast_error.html' %}
+    {% elif level == 30 %}
+    {% include 'includes/toasts/toast_warning.html' %}
+    {% elif level == 25 %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% else %}
+    {% include 'includes/toasts/toast_info.html' %}
+    {% endif %}
+    {% endwith %}
+    {% endfor %}
+</div>
 {% endif %}
+
 
 {% block page_header %}
 {% endblock %}
