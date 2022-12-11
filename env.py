@@ -12,5 +12,5 @@ import os
 # os.environ["SECRET_KEY"] = ""
 os.environ["STRIPE_PUBLIC_KEY"] = "pk_test_51LKMRbFdNsiAbeg4QWXBLIA1LVl9EHURwMdkqPrEcN2MJP9VDVMsSjLXBoLO7IPASeVbLveAZsbyHWwZnOmVjQok0019uBv4Uu"
 os.environ["STRIPE_SECRET_KEY"] = "sk_test_51LKMRbFdNsiAbeg4XsFJG5ZS1iSGiTxA73uoUxzayCTj3y6CykZUhN36hcFt6BVxdbSROseY9OOGxoUpMZjN5DOY00e5Ok7Hhn"
-# os.environ["STRIPE_WH_SECRET"] = ""
+os.environ["STRIPE_WH_SECRET"] = "whsec_PtUEv8qaGOCO8LVqMwjHxlpKUy4mPY60"
 # os.environ["USE_AWS"] = "TRUE"
