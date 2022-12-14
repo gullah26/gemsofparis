@@ -44,6 +44,21 @@
 
     <title>Gems Of Paris . One of the biggest online shopping platform for gemstones
         {% block extra_title %}{% endblock %}</title>
+
+        <style>
+            .large-container {
+                background-color: #fff !important;
+                padding-bottom: 50px !important;
+            }
+            .card-img-top {
+                width: 60% !important;
+            }
+            {
+                .btn-info {
+                    color: #ffe000 !important;
+                }
+            }
+        </style>
 </head>
 
 <header class="container-fluid fixed-top">   
@@ -99,7 +114,10 @@
                 <li class="list-inline-item mt-0">
                     <a class="nav-link" href="{% url 'wishlist' %}">
                         <div class="text-center text-white">
-                            <div><i class="far fa-heart fa-lg"></i></div> 
+                            <span class="badge badge-pill badge-primary badge-notification">{{ product_count }}</span>
+                            <div>
+                                <i class="far fa-heart fa-lg"></i>
+                            </div> 
                             <p class="my-0">Favorite</p>                           
                         </div>
                     </a>
