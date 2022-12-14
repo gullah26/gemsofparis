@@ -1,24 +1,22 @@
-{% load static %}
-<ul class="list-inline d-flex justify-content-around flex-fill d-none d-md-block d-lg-none">
-
-    <!-- mobile navbar logo -->
-
-    <li class="list-inline-item">        
-        <a class="navbar-brand" href="#">
-            <img src="/media/logo_black.png" width="160" height="60" class="d-inline-block align-bottom" alt="brand logo">
-        </a>       
-
+<ul>
+    <!-- Back to Homepage -->
+    <li class="list-inline-item">
+        <a class="nav-link text-black d-block d-lg-none" href="{% url 'home' %}">
+            <div class="text-center">
+                <div><i class="fas fa-home"></i></div>
+            </div>
+        </a>
     </li>
     <!-- Search bar-->
-    <li class="list-inline-item mb-0">
+    <li class="list-inline-item">
         <a class="nav-link text-black  d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
                 <div><i class="fas fa-search"></i></div>
             </div>
         </a>
-        <div class="dropdown-menu border-0 w-100 rounded-0 my-0" aria-labelledby="mobile-search">
-            <form class="form" method="GET" action="">
+        <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
+            <form class="form" method="GET" action="{% url 'products' %}">
                 <div class="input-group w-100">
                     <input class="form-control border border-black" type="text" name="q" placeholder="Search our site">
                     <div class="input-group-append">
@@ -31,5 +29,44 @@
                 </div>
             </form>
         </div>
+    </li>
+    <!-- User Account -->
+    <li class="list-inline-item dropdown">
+        <a class="nav-link text-black d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+                <div><i class="fas fa-user"></i></div>
+            </div>
+        </a>
+        <div class="dropdown-menu font-weight-bold border-0" aria-labelledby="user-options">
+            {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <a href="{% url 'add_product' %}" class="dropdown-item font-weight-bold">Product Management</a>
+            {% endif %}
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item font-weight-bold">Logout</a>
+            {% else %}
+            <a href="{% url 'account_signup' %}" class="dropdown-item font-weight-bold">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item font-weight-bold">Login</a>
+            {% endif %}
+        </div>
+    </li>
+    <!-- favorite Icon -->
+    <li class="list-inline-item">
+        <a class="nav-link text-black d-block d-lg-none" href="{% url 'favorite' %}">
+            <div class="text-center">
+                <div><i class="fas fa-heart"></i></div>
+            </div>
+        </a>
+    </li>
+    <!-- Shopping cart -->
+    <li class="list-inline-item">
+        <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
+            href="{% url 'view_bag' %}">
+            <span class="badge badge-pill badge-danger badge-notification">0</span>
+            <div class="text-center">
+                <div><i class="fas fa-shopping-cart"></i></div>
+            </div>
+        </a>
     </li>
 </ul>
