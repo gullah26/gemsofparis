@@ -38,7 +38,7 @@
                     </p>
                     {% endif %}
                     {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 100</small>
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
@@ -52,18 +52,36 @@
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
-                            {% with product.has_sizes as s %}
+                            {% with product.has_colors as s %}
                             {% if s %}
                                 <div class="col-12">
-                                    <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
+                                    <p><strong>Color:</strong></p>
+                                    <select class="form-control rounded-0 w-50" name="product_color" id='id_product_color'>
+                                        <option value="blue">BLUE</option>
+                                        <option value="purple">PURPLE</option>
+                                        <option value="pink" selected>PINK</option>
+                                        <option value="yellow">YELLOW</option>
+                                        <option value="green">GREEN</option>
                                     </select>
                                 </div>
+                                {% else %}
+                        {% with product.has_shapes as s %}
+                        
+                        <div class="col-12">
+                            <p><strong>Shape:</strong></p>
+                            <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                <option value="princess">PRINCESS</option>
+                                <option value="round">ROUND</option>
+                                <option value="emerald" selected>EMERALD</option>
+                                <option value="asscher">ASSCHER</option>
+                                <option value="heart">HEART</option>
+                                <option value="radiant">RADIANT</option>
+                                <option value="trillion">TRILLION</option>
+                                <option value="oval">OVAL</option>
+                                <option value="cushion">CUSHION</option>
+                            </select>
+                        </div>                        
+                        {% endwith %}
                             {% endif %}
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
