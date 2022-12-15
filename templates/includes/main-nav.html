@@ -4,7 +4,7 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0 bg-warning" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border border-dark bg-warning" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -16,7 +16,7 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="precious-stones-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Precious Stones
             </a>
-            <div class="dropdown-menu border-0 bg-warning" aria-labelledby="precious-stones-link">
+            <div class="dropdown-menu border border-dark bg-warning" aria-labelledby="precious-stones-link">
                 <!-- <a href="{% url 'products' %}?category=blue" class="dropdown-item">Blue Sapphire</a> -->
                 <a href="{% url 'products' %}?category=yellow" class="dropdown-item">Yellow Sapphire</a>
                 <a href="{% url 'products' %}?category=purple" class="dropdown-item">Purple Sapphire</a>
@@ -32,7 +32,7 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="semi-precious-stones-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Semi Precious Stones
             </a>
-            <div class="dropdown-menu border-0 bg-warning" aria-labelledby="semi-precious-stones-link">
+            <div class="dropdown-menu border border-dark bg-warning" aria-labelledby="semi-precious-stones-link">
                 <a href="{% url 'products' %}?category=alexandrite" class="dropdown-item">Alexandrite</a>
                 <a href="{% url 'products' %}?category=amethyst" class="dropdown-item">Amethyst</a>
                 <a href="{% url 'products' %}?category=aquamarine" class="dropdown-item">Aquamarine</a>
@@ -50,7 +50,7 @@
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0 bg-warning" aria-labelledby="specials-link">
+            <div class="dropdown-menu border border-dark bg-warning" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=sunstone,tanzanite" class="dropdown-item">New Arrivals</a>
                 <a href="{% url 'products' %}?category=topaz,tourmaline" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=sunstone,tanzanite,topaz,tourmaline" class="dropdown-item">All Specials</a>

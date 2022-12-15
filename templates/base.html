@@ -23,7 +23,9 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -60,7 +62,7 @@
 
     <style>
         .large-container {
-            background-color: #fff !important;
+            background-color: rgb(224, 137, 137) !important;
             padding-bottom: 50px !important;
         }
 
@@ -79,8 +81,6 @@
 <header class="container-fluid fixed-top">
 
 
-
-
     <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex ">
         <div class="col-12 col-lg-4 my-auto py-0 py-lg-0 text-center text-lg-left">
             <a href="{% url 'home' %}" class="nav-link main-logo-link">
@@ -92,10 +92,10 @@
 
                 <div class="input-group w-100">
 
-                    <input id="search-bar" class="form-control border border-white rounded-left" type="text" name="q"
+                    <input id="search-bar" class="form-control border border-white rounded" type="text" name="q"
                         placeholder="Search products">
                     <div class="input-group-append">
-                        <button id="search-btn" class="form-control btn btn-black border border-white rounded-right"
+                        <button id="search-btn" class="form-control btn-sm btn-black border border-white rounded"
                             type="submit">
                             <span class="icon">
                                 <i class="fas fa-search"></i>
@@ -115,7 +115,7 @@
                             <p class="my-0">My Account</p>
                         </div>
                     </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                    <div class="dropdown-menu border border-dark bg-warning" aria-labelledby="user-options">
                         {% if request.user.is_authenticated %}
                         {% if request.user.is_superuser %}
                         <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -146,7 +146,7 @@
                     <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
                         href="{% url 'view_bag' %}">
                         <div class="text-center">
-                            <span class="badge badge-pill badge-danger badge-notification">{{ product_count }}</span>
+                            <span class="badge badge-pill badge-danger badge-notification position-absolute mt-2 mr-4">{{ product_count }}</span>
                             <div><i class="fas fa-shopping-basket fa-lg"></i></div>
                             <p class="my-0 text-danger">
                                 {% if grand_total %}
