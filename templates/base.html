@@ -62,19 +62,14 @@
 
     <style>
         .large-container {
-            background-color: rgb(224, 137, 137) !important;
+            background-color: rgb(241, 241, 241) !important;
             padding-bottom: 50px !important;
         }
 
         .card-img-top {
             width: 60% !important;
         }
-
-            {
-            .btn-info {
-                color: #ffe000 !important;
-            }
-        }
+        
     </style>
 </head>
 
@@ -83,19 +78,21 @@
 
     <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex ">
         <div class="col-12 col-lg-4 my-auto py-0 py-lg-0 text-center text-lg-left">
-            <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                <h2 class="logo-font text-warning my-0 ">Gems of Paris</h2>
+            <a href="{% url 'home' %}" class="nav-link main-logo-link d-flex">
+                <img src="/media/logo_white.png" width="80" height="60" class="d-inline-block" alt="company logo">
+
+                <h2 class="logo-font text-warning my-auto ">Gems of Paris</h2>
             </a>
         </div>
-        <div class="col-12 col-lg-4 my-auto py-0 py-lg-0">
+        <div class="col-12 col-lg-4 my-auto py-0 py-lg-0 border-white">
             <form method="GET" action="{% url 'products' %}">
 
                 <div class="input-group w-100">
 
-                    <input id="search-bar" class="form-control border border-white rounded" type="text" name="q"
+                    <input id="search-bar" class="form-control border rounded-left" type="text" name="q"
                         placeholder="Search products">
                     <div class="input-group-append">
-                        <button id="search-btn" class="form-control btn-sm btn-black border border-white rounded"
+                        <button id="search-btn" class="form-control btn-sm btn-black border  rounded-right"
                             type="submit">
                             <span class="icon">
                                 <i class="fas fa-search"></i>
