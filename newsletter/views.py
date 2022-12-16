@@ -1,45 +1,92 @@
-from django.contrib import messages
-from django.shortcuts import render
-from .models import NewsletterUser
-from .forms import UserSignUpForm
+from mailchimp_marketing import Client
+from django.http import JsonResponse
+from django.shortcuts import render, redirect
+from mailchimp_marketing.api_client import ApiClientError
+import logging
 
 
-def newsletter_signup(request):
-    form = UserSignUpForm(request.POST or None)
 
-    if form.is_valid():
-        instance = form.save(commit=False)
-        if NewsletterUser.objects.filter(email=instance.email).exists():
-            messages.warning(request, 'Email already exists in database',
-                            "alert alert-warning alert-dismissible")
-        else:
-            instance.save()
-            messages.success(request, 'Email submitted to database',
-                            "alert alert-success alert-dismissible")
-
-    context = {
-        'form': form,
-    }
-    template = "newsletter/sign_up.html"
-    return render(request, template, context)
+from gemsofparis import settings
+from newsletter.forms import EmailForm
 
 
-def newsletter_unsubscribe(request):
-    form = UserSignUpForm(request.POST or None)
+logger = logging.getLogger(__name__)
 
-    if form.is_valid():
-        instance = form.save(commit=False)
-        if NewsletterUser.objects.filter(email=instance.email).exists():
-            NewsletterUser.objects.filter(email=instance.email).delete()
-            messages.success(request, 'Email removed from database',
-                                "alert alert-success alert-dismissible")
+def subscribe_view(request):
+    if request.method == 'POST':
+        form = EmailForm(request.POST)
+        if form.is_valid():
+            try:
+                form_email = form.cleaned_data['email']
+                member_info = {
+                    'email_address': form_email,
+                    'status': 'subscribed',
+                }
+                response = mailchimp.lists.add_list_member(
+                    settings.MAILCHIMP_MARKETING_AUDIENCE_ID,
+                    member_info,
+                )
+                logger.info(f'API call successful: {response}')
+                return redirect('subscribe-success')
 
-        else:
-            messages.warning(request, 'Email not in database',
-                             "alert alert-alert alert-dismissible")
+            except ApiClientError as error:
+                logger.error(f'An exception occurred: {error.text}')
+                return redirect('subscribe-fail')
 
-    context = {
-        'form': form,
-    }
-    template = "newsletter/unsubscribe.html"
-    return render(request, template, context)
+    return render(request, 'subscribe.html', {
+        'form': EmailForm(),
+    })
+
+
+def subscribe_success_view(request):
+    return render(request, 'message.html', {
+        'title': 'Successfully subscribed',
+        'message': 'Yay, you have been successfully subscribed to our mailing list.',
+    })
+
+
+def subscribe_fail_view(request):
+    return render(request, 'message.html', {
+        'title': 'Failed to subscribe',
+        'message': 'Oops, something went wrong.',
+    })
+
+
+def unsubscribe_view(request):
+    if request.method == 'POST':
+        form = EmailForm(request.POST)
+        if form.is_valid():
+            form_email = form.cleaned_data['email']
+            # TODO: use Mailchimp API to unsubscribe
+            return redirect('unsubscribe-success')
+
+    return render(request, 'unsubscribe.html', {
+        'form': EmailForm(),
+    })
+
+
+def unsubscribe_success_view(request):
+    return render(request, 'message.html', {
+        'title': 'Successfully unsubscribed',
+        'message': 'You have been successfully unsubscribed from our mailing list.',
+    })
+
+
+def unsubscribe_fail_view(request):
+    return render(request, 'message.html', {
+        'title': 'Failed to unsubscribe',
+        'message': 'Oops, something went wrong.',
+    })
+
+
+mailchimp = Client()
+mailchimp.set_config({
+  'api_key': settings.MAILCHIMP_API_KEY,
+  'server': settings.MAILCHIMP_REGION,
+})
+
+
+def mailchimp_ping_view(request):
+    response = mailchimp.ping.get()
+    return JsonResponse(response)
+

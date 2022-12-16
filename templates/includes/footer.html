@@ -1,91 +1,96 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+<link rel="stylesheet" href="{% static 'css/footer.css' %}">
 {% endblock %}
 
 
 <!-- Footer -->
 <footer id="footer" class="footer-1">
 
-		<div class="container">
+	<div class="container">
 		<div class="row">
-		<div class="col-md-12 text-center">
-			<h5 class="logo-font text-black font-weight">Free shipping and returns on orders over
-				${{ free_delivery_threshold }} !<i class="fas fa-shipping-fast text-success"></i></h5>
+			<div class="col-md-12 text-center">
+				<h5 class="logo-font text-black font-weight">Free shipping and returns on orders over
+					${{ free_delivery_threshold }} !<i class="fas fa-shipping-fast text-success"></i></h5>
+			</div>
 		</div>
-		</div>
-		</div>
-<!-- https://ordinarycoders.com/blog/article/bootstrap-footers-->
+	</div>
+	<!-- https://ordinarycoders.com/blog/article/bootstrap-footers-->
 
 	<div class="main-footer widgets-dark typo-light">
-	<div class="container">
-	<div class="row">
-	
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	<div class="widget subscribe no-box">
-	<h5 class="widget-title">Gems of Paris<span></span></h5>
-	<p>Gems are the source of immortality</p>
-	</div>
-	</div>
-	
-	  
-	<div class="col-xs-12 col-sm-6 col-md-3">
-	<div class="widget no-box">
-	<h5 class="widget-title">Shipping<span></span></h5>
-	<a href="{% url 'shipping' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-ups fa-2x text-muted"></i></a>
-	<a href="{% url 'shipping' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-dhl fa-3x text-muted"></i></a>
-	</div>
-	</div>
-	
-	  
-	
-		  <div class="col-xs-12 col-sm-6 col-md-3">
-	<div class="widget no-box">
-	<h5 class="widget-title">Social Link<span></span></h5>
-				<a href="https://www.facebook.com/gemsofparis/" aria-label="find us on facebook (opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-facebook fa-2x text-primary px-1"></i></a>
-				<a href="https://twitter.com" aria-label="find us on twitter (opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-twitter fa-2x text-info px-1"></i></a>
-				<a href="https://instagram.com" aria-label="find us on instagram (opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-instagram fa-2x text-danger px-1"></i></a>
-				<a href="https://github.com/gullah26" aria-label="find us on github (opens in new tab)" rel="noopener" target="_blank"><i class="fab fa-github fa-2x text-white px-1"></i></a>
-				
-				
-	</div>
-	</div>
-	<br>
-	  <br>
-	
-	
-	<div class="col-xs-12 col-sm-6 col-md-3">
-	<div class="widget no-box">
-	<h5 class="widget-title">Contact Us<span></span></h5>
-	<a href="{% url 'contact' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i class="far fa-envelope text-muted"></i></a>
-	 | <i class="fas fa-phone text-muted"></i>: +46345678901 </p>
-	
-		
-	<div class="emailfield">
-	<form>
-	<input type="text" name="email" value="Email">
-	<input name="uri" type="hidden" value="arabiantheme">
-	<input name="loc" type="hidden" value="en_US">
-	<input class="submitbutton ripplelink" type="submit" value="Subscribe">
-	</form>  
-	</div>
-	</div>
-	
-	</div>
-	</div>
-	</div>
-	  
-	<div class="footer-copyright">
-	<div class="container">
-	<div class="row">
-	<div class="col-md-12 text-center">
-	<p>Copyright  Seun Ajetomobi © 2022. Code Institute project 5.</p>
-	</div>
-	</div>
-	</div>
-	</div>
-	</footer>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="widget subscribe no-box">
+						<h5 class="widget-title">Gems of Paris<span></span></h5>
+						<p>Gems are the source of immortality</p>
+					</div>
+				</div>
+
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="widget no-box">
+						<h5 class="widget-title">Shipping<span></span></h5>
+						<a href="{% url 'shipping' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i
+								class="fab fa-ups fa-2x text-muted"></i></a>
+						<a href="{% url 'shipping' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i
+								class="fab fa-dhl fa-3x text-muted"></i></a>
+					</div>
+				</div>
+
+
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="widget no-box">
+						<h5 class="widget-title">Social Link<span></span></h5>
+						<a href="https://www.facebook.com/gemsofparis/"
+							aria-label="find us on facebook (opens in new tab)" rel="noopener" target="_blank"><i
+								class="fab fa-facebook fa-2x text-primary px-1"></i></a>
+						<a href="https://twitter.com" aria-label="find us on twitter (opens in new tab)" rel="noopener"
+							target="_blank"><i class="fab fa-twitter fa-2x text-info px-1"></i></a>
+						<a href="https://instagram.com" aria-label="find us on instagram (opens in new tab)"
+							rel="noopener" target="_blank"><i class="fab fa-instagram fa-2x text-danger px-1"></i></a>
+						<a href="https://github.com/gullah26" aria-label="find us on github (opens in new tab)"
+							rel="noopener" target="_blank"><i class="fab fa-github fa-2x text-white px-1"></i></a>
+
+
+					</div>
+				</div>
+				<br>
+				<br>
+
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="widget no-box">
+						<h5 class="widget-title">Contact Us<span></span></h5>
+						<a href="{% url 'contact' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i
+								class="far fa-envelope text-muted"></i></a>
+						| <i class="fas fa-phone text-muted"></i>: +46345678901 </p>
+
+
+						<div class="emailfield">
+							<a href="{% url 'subscribe' %}"><input class="submitbutton ripplelink" type="submit"
+									value="Newsletter"></a>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>Copyright Seun Ajetomobi © 2022. Code Institute project 5.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</footer>
 <!-- footer end -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

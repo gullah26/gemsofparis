@@ -62,7 +62,7 @@ INSTALLED_APPS = [
     'profiles',
     'wishlist',
     'contact',
-    'newsletter',
+    'newsletter.apps.NewsletterConfig',
     'shipping',
 
     # Other
@@ -247,7 +247,12 @@ else:
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
+#  mailchimp newsletter config
 
+# Mailchimp credentials
+MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_KEY', '')
+MAILCHIMP_REGION = 'us21'
+MAILCHIMP_MARKETING_AUDIENCE_ID = os.environ.get('MAILCHIMP_AUDIENCE_ID', '')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
