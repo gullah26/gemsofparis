@@ -1,5 +1,9 @@
+
+
+
+
 /*==================== 
-  Footer 
+  Footer  https://ordinarycoders.com/blog/article/bootstrap-footers
 ====================== */
 
 /* Main Footer */
@@ -62,8 +66,8 @@ ul.social-footer2 { margin: 0;padding: 0; width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+.btn{background-color: #190d02; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #372cd7;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -105,10 +109,10 @@ input[type="text"] {
 }
 
 input.submitbutton.ripplelink {
-    background: #e67e22;
+    background: #e5d30f;
     border: 3px solid rgba(0,0,0,0.1);
-    color: #fff;
-    border-color: #e67e22;
+    color: rgb(0, 0, 0);
+    border-color: #cac116;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
     transition-delay: 0s;
     width: 100%;

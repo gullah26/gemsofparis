@@ -1,3 +1,5 @@
+# https://testdriven.io/blog/django-mailchimp/
+
 from mailchimp_marketing import Client
 from django.http import JsonResponse
 from django.shortcuts import render, redirect

@@ -37,7 +37,7 @@ def add_to_wishlist(request, product_id):
     wishlist, _ = WishList.objects.get_or_create(user=request.user)
     # Add product to the wishlist
     wishlist.products.add(product)
-    messages.info(request, "A new product was added to your wishlist")
+    messages.info(request, "A new product was added to your favorite list")
 
     return redirect(request.META.get('HTTP_REFERER'))
 
@@ -53,6 +53,6 @@ def remove_from_wishlist(request, product_id):
 
     # Remove product from the wishlist
     wishlist.products.remove(product)
-    messages.info(request, "A product was removed from your wishlist")
+    messages.info(request, "A product was removed from your favorite list")
 
     return redirect(request.META.get('HTTP_REFERER'))

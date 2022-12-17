@@ -1,4 +1,4 @@
-"""gems of Paris URL Configuration
+"""Gems of Paris URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
 Examples:
@@ -16,6 +16,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from .views import handler404, handler500, handler403, handler400
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,4 +31,10 @@ urlpatterns = [
     path('contact/', include('contact.urls')),
     path('newsletter/', include('newsletter.urls')),
     path('shipping/', include('shipping.urls')),
+    
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+handler404 = 'gemsofparis.views.handler404'
+handler500 = 'gemsofparis.views.handler500'
+handler403 = 'gemsofparis.views.handler403'
+handler400 = 'gemsofparis.views.handler400'

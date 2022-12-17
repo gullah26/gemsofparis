@@ -28,11 +28,6 @@ body {
     color: rgb(209, 20, 20);
 }
 
-.blue-o {
-
-    color: rgb(255, 255, 255);
-}
-
 
 
 /* from Bulma */
@@ -51,11 +46,22 @@ body {
 }
 
 .logo-font {
-    text-transform: uppercase;
-    font-family: 'Rubik Maze', cursive;
+    font-family: 'Sacramento', cursive;
+    color: rgb(255, 255, 255);
 }
 
 .fav-image-container {
+
+    padding-top: 50px;
+    margin: 100px;
+    width: 100px;
+
+}
+
+.fav-list {
+
+    font-family: 'Roboto';
+    color: #007bff;
 
     padding-top: 50px;
     margin: 100px;
@@ -141,8 +147,8 @@ body {
 
     background: red;
     position: relative;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 15px;
     border-radius: 3rem;
 }
 
@@ -353,12 +359,12 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: #000000;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #000000;
+    border-color: #000000;
     border-radius: 0;
 }
 
@@ -624,9 +630,11 @@ footer a:hover {
 }
  /*inline css for favourite background*/
 {
-
-    .topzea {
+    
+.topzea {
          background: #ffffff !important;
     }
 
 }
+
+    
