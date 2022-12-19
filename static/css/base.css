@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: url('/media/bg-img-2.jpg') no-repeat center center fixed;
+    background: url('/media/diamond_on_a_black_background.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
