@@ -34,6 +34,8 @@ urlpatterns = [
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+# error handling pages
+
 handler404 = 'gemsofparis.views.handler404'
 handler500 = 'gemsofparis.views.handler500'
 handler403 = 'gemsofparis.views.handler403'
