@@ -405,42 +405,99 @@ only an authorized personel can have access to the Admin page, as the web applic
 
   ![](/README_DOC/singin.jpg)
 
-### Validators
+### E-Commerce App Testing 
+
+- Functional Testing
+  - Checking a web application’s requested functionality in the area of basic usability, its mainline functions, and accessibility is known as functional testing. BVA, decision table testing, and equivalence class testing among many other methods, may be used to create functional test cases for online applications.
+
+The following test cases are a few of many test cases that can be considered for checking the functional testing:
+
+- User Interference testing
+  - Navigation Testing:
+    - All internal and external links are tested for functionality during the navigation process. Websites must be tested for their ability to deliver reliable, well-organized links, as well as other navigational choices like site maps and search engines. The following checklist can be considered for navigation testing of an e-commerce site:
+        - 1.	Check every link on the site.	An appropriate page should open.
+        - 2.	Click on the back button 	An appropriate page should open.
+        - 3.	Click on every link to see how the material appears on each web page.	The website’s contents    can effectively be read since appropriate horizontal and vertical scroll bars are available.
+
+  - Form-Based Testing:
+    - Forms on websites must be tested to ensure that all fields function properly. These types of forms on e-commerce sites can be seen while the user is registering or when the user is filling in billing and shipping details. Form-based testing checks the following concerns: 
+
+      - Correct use of the tab key to go from one form field to another.
+      - Verifies that the data submitted in the form is in the correct format. 
+      - Verifies that all necessary fields are filled out on the form.
+
+- Security Testing
+  - Security is the process of protecting data from numerous attacks. When interacting across a network, it is necessary to secure sensitive and critical information and data. The user wishes to have a safeguard in place to protect personal, sensitive, and financial information. We want data that is accurate, dependable, and secure against illegal access.
+    - Authentication: Is the data sent by an authorized user?
+    - Access Control: Is data secure against unauthorized users? 
+    - Transparency: Does the user receive exactly what is sent? 
+    - Delivery: Is the information reaching the intended recipient? 
+    - Reliability: How frequently does a failure occur? How long does it take for the network to recover after a failure?
+
+- Browser compatibility Testing:
+  - There are several browsers available, and each of them behaves differently. Although testing the web application with all browsers is impracticable, it is vital to validate the web application with defined and prioritized platforms to assure proper operation. A browser compatibility matrix may be developed to test the web application on multiple browsers.
+
+- Load and stress Testing
+  - Stress testing is running a web application under more than maximum and changing loads for extended periods of time. Unlike performance and load testing, stress testing assesses the system’s response when it is subjected to a load that exceeds its defined limitations. It is also used to monitor and test the dependability of a web application when available resources are being exploited beyond their maximum capacity. The system’s behavior is observed to identify when the system under stress test fails and how it recovers from the failure.
+
+  - Load testing comprises simulating several users accessing the web application at the same time to test the web application under real-world conditions. It puts the web application through its paces by overloading it. Load testing plans should be developed as early as practicable in the software life cycle. Load testing includes the following measures to guarantee adequate performance during peak hours.
+
+- Database Testing
+  - E-commerce is database-driven, it is critical that these apps function effectively and protect the user’s sensitive data, such as personal information and credit card information. Data-centric web applications must be tested to ensure error-free functioning and greater client satisfaction. Consider the following scenario: you want to buy something from an online retailer. When a user does a search using keywords and pricing preferences, the database server generates a database query. If the query does not take into account the customer’s price choices owing to a programming error, the results will be incorrect. During database testing, several types of defects must be verified and eliminated.
+
+### Features tested in this web application
+
+  - Home page: The links to important pages should be visible and functional, correct images and text are visible on the main page.
+
+  - Payment function: At this step, security testing comes into the picture. A number of variables need to be tested here like Debit/ Credit card details, can the customer pay in installments, the generation of order confirmation and receipt, etc.
+
+  - Order processing mechanism: At the time of placing the order, the users should be able to select the preferred shipping method, the address should be correctly mapped to the order, etc.
+
+  - Product Catalog: All the products should be clearly listed on the site with all the explanatory images, clear product descriptions, images should be of good quality, Add To Card option should be easily visible, etc.
+  
+  - Search engine: Users should be able to search the desired product seamlessly and should be directed to the exact product page, should be able to navigate to important sections like product categories, cart, etc with few clicks. 
 
 - [W3C HTML Validator](https://validator.w3.org) 
-  - add_products.html
-  - authentication_error.html
-  - base.html
-  - checkout_success.html
-  - checkout_success.html
-  - checkout.html
-  - connections.html
-  - edit_product.html
-  - favorite.html
-  - index.html
-  - main-nav.html
-  - mobile_top_header.html
-  - product_detail.html
-  - products.html
-  - quantity_input_script.html
-  - profile.html
+  - 400.html
+  - 403.html
   - 404.html
   - 500.html
-  - toast_error.html
-  - toast_info.html
-  - toast_success.html
-  - toast_warning.html
-  - login_cancelled.html
-  - signup.html
-  - shipping.html
+  - add_product.html
+  - bag-total.html
+  - bag.html
+  - base.html
+  - checkout-buttons.html
+  - checkout.html
+  - checkout_success.html
   - contact.html
-  - success.html 
+  - edit_product.html
+  - email.html
+  - email_confirmed.html
+  - footer.html
+  - index.html
+  - login.html
+  - logout.html
+  - main-nav.html
+  - message.html
+  - mobile-top-header-one.html
+  - product-image.html
+  - product-info.html
+  - product_detail.html
+  - products.html
+  - profile.html
+  - quantity-form.html
+  - shipping.html
+  - signup.html
+  - subscribe.html
+  - unsubscribe.html
+  - wishlist.html
 
 
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
- - base.css
- - responsiveness.css
- - profile.css
+  - base.css
+  - responsiveness.css
+  - profile.css
+  - footer.css
 
     ![](/README_DOC/W3C_testing.jpg)
 ### Other testing 

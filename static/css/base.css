@@ -166,7 +166,8 @@ a.category-badge>span.badge:hover {
     width: 42px;
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
+    z-index: -1
 }
 
 .btt-link,

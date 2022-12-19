@@ -67,12 +67,16 @@
 						<h5 class="widget-title">Contact Us<span></span></h5>
 						<a href="{% url 'contact' %}" aria-label="(opens in new tab)" rel="noopener" target="_blank"><i
 								class="far fa-envelope text-muted"></i></a>
-						| <i class="fas fa-phone text-muted"></i>: +46345678901 </p>
+						| <i class="fas fa-phone text-muted"></i>: <p>+46345678901 </p>
 
 
 						<div class="emailfield">
-							<a href="{% url 'subscribe' %}"><input class="submitbutton ripplelink" type="submit"
-									value="Newsletter"></a>
+							<form action="{% url 'subscribe' %}">
+								<button class="submitbutton btn ripplelink" type="submit"
+									value="Newsletter">Newsletter</button>
+
+							</form>
+							
 
 						</div>
 					</div>
@@ -90,6 +94,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 </footer>
 <!-- footer end -->
 
