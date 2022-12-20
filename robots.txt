@@ -1,0 +1,6 @@
+user-agent: *
+disallow: /profile/
+Disallow: /accounts/
+Disallow: /checkout/
+Disallow: /bag/
+site-map: https://gemsofparis.herokuapp.com/sitemap.xml
