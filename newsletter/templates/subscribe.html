@@ -11,13 +11,13 @@
 {% endblock %}
 
 {% block content %}
-<div class="container mt-5">
-    <h1>Subscribe</h1>
+<div class="container w-25 mt-5 text-white">
+    <h1 class="text-white">Subscribe</h1>
     <p>Enter your email address to subscribe to our mailing list.</p>
     <form method="post">
         {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        {{ form | crispy }}
+        <button type="submit" class="btn btn-black text-white ml-5">Subscribe</button>
     </form>
     <p class="mt-2"><a href="{% url "unsubscribe" %}">Unsubscribe form</a></p>
 </div>

@@ -1,18 +1,20 @@
-# GEMS OF PARIS
+# **GEMS OF PARIS**
+
 ## **Introduction**
 
-Gemsofparis is an E-commerce web application that ticks every single boxes of a fully functional E-commerce application criteria. This application was developed based on the fundamentals of a digital business strategy with the use of a powerful and advance web application frame work Django to build a scalable, responsive and powerful web application. However, the aim and objective of Gemsofparis is to serve both owner and users an advance digital and accessible ease of access to businesses and transcation, also to build strong business relationships between consumers and service providers. In context, E-commerce website relations could be (B2B -Business to Business and B2C - Business to Consumer).
+Gemsofparis is an E-commerce web application that ticks every single boxes of a fully functional E-commerce application criteria. This application was developed based on the fundamentals of a digital business strategy with the use of a powerful and advance web application frame work Django to build a scalable, responsive and powerful web application. However, the aim and objective of Gemsofparis is to serve web owners and web users with a digital marketing platform and ease of doing businesses online, also to build strong business relationships between consumers and e-commerce service providers, an e-commerce application is categorized into two  namely: 
+  - 1. Business to Business B2B. 
+  - 2. Business to Consumer B2C.
 
-### **About the application**
+  ### **More About the application**
 
-Gemsofparis is a web application that faciliates the sales of various gemstone digitally to consumers so it is  categorized a B2C web application in the sense that it only services is based on a business to customer relationship, it is a fully E-commerce web application  that deals in varieties of gemstones accross the globe, from Diamonds, Emeralds, Sapphires to name a few to Gemstone lovers who are keen about the originality and detailed history of what their customized jewellry is made of.The E-commerce application is user friendly and with a functional responsive interface across all devices.
+This  web application is an e-commerce web application which provides services digitally to consumers or users of the application, so it is  categorized a B2C web application in the sense that it’s services is based on a business to customer relationship, it’s a fully functional E-commerce web application  that deals in varieties of gemstones accessible accross the globe making it possible for purchasing a gemstone of your choice online and get it delivered to your doorstep with a fast and secure delivery system, some of the available gemstones are  Diamonds, Emeralds, Sapphires to name a few. To gemstone lovers who are keen about the originality and detailed history of what their customized jewellry is made of this E-commerce application is user friendly and with a functional , secure, with an accessible, easy to use and  responsive user interface.
 
 
-![](/README_DOC/all-devices-mockup.png)
+![](/README_DOC/responsiveness.jpg)
 **NB: Please Note**: The data on the website is for educational purposes only.
 
-[Here is the link to the live version](https://gem-master.herokuapp.com/)
-
+[Here is the link to the live version](https://gemsofparis.herokuapp.com/)
 
 ## Table of Contents
 
@@ -49,7 +51,7 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 
 ## **User Stories**
 
-#### **Views and Navigation**
+#### **View products and Navigation**
 *****************************
 
 - As a user I can be able to view a list of products so that I can choose what to buy.
@@ -66,7 +68,8 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 
 - The Website homepage is equiped with different functionlity which allows a user to navigate around the website right from the homepage , the presence of the shop now button on the carousel gives a direct access into the list of products available for sale. 
 
-#### **Registrations and User Accounts**
+#### **Registrations and Authentications**
+*****************************************
 
 - As a/an Site User I can be able to register an account with ease so that I can have an account that allows me to have a private profile.
 
@@ -79,7 +82,8 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 - As a Site User I can be able to customize my user profile so that I can view my order history,confirmation and able to securely save my payment information and addresses on my profile.
 
 
-#### **Searching and Filtering**
+#### **Search and Filter**
+*********************************
 
 - As a  user I can search for products through the help of the search bar located at top of the navigation system. To view product information, users only click on the product and every detailed information about the product will be displayed for readablitiy. A Users can search for  products by name or by keyword using the search functionality provided at the top of the page. The product display page can be further narrowed down by searching products by category, Price, Alphabetically or by product rating.
 
@@ -93,11 +97,23 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 
 - As a user I can be able to view my searh results and what I have searched for so that I can easily see if the search product is available.
 
-#### **Purchase and Checkout**
+#### **Shopping Bag**
+*********************
+- As a user I want to add product to shopping bag So that I can can complete my purchase.
+
+#### **Favorite**
+******************
+- As a user I want to add product to my wish list so that I can save items of my interest for later purchases.
+
+#### **Purchase Quantity**
+*************************
+- As a user I want to increase or decrease the quantity of product to be purchased So that I can I do not under buy or over buy what I need.
 
 - As a user I can be able to **choose the size and quantity of a product when making a order so that I can carefully select item size or quantity without mistake.
 
-- As a user I can be able to view the content of my shopping cart so that I can keep track of the total cost of my order and what to receive.
+#### **Checkout**
+*****************
+- As a user I can be able to view the content of my shopping bag so that I can keep track of the total cost of my order and what to receive.
 
 - As a user I can be able to modify the contents of my shopping cart so that I can make changes before final checkout.
 
@@ -109,23 +125,34 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 
 - As a user I can be able to get an email confirmation of my order after checkout so that I can keep track my order record and purchases.
 
-#### **Payment**.
+#### **Payment**
+****************
 
 - As a user I can be able to complete my order with a friendly payment system.
+
+- As a user I want to make payment So that I can successfully complete my order.
 
 #### **Security**.
 
 - As a user I can be rest assured that I can feel secure  when putting my informations on the website.
+- As a user I want to feel protect So that I can feel a sense of security.
 
-#### **Admin and Store Management**.
+#### **Management**
+*******************
 
 - As a/an Store Owner** I can be able to Add, Edit/Update and Delete products/items so that I can Add new Items, Change/Edit product prices, modify product descriptions, edit images, Remove/Delete items/Products that are out of stock.
-#### **Newsletter**.
+
+- As a admin or product owner I want to keep track of activities So that I can manage the website.
+
+#### **Newsletter**
+*******************
 
 - As a user I can subscribe to the website news letter so that I can have a first hand information and updates on products, deals, news and special offers.
-#### **Customer support**.
 
-- As a user I can As a User I want to have access to customer support, So that I can contact the support team for assistance on different scenarios that can occur.
+- As a user I want to be able to subscribe to email newsletter So that I can read about the news and offer from the website.
+#### **Support**
+*****************
+- As a User I want to have access to customer support So that I can contact the support team for swift assistance on different scenarios that could occur.
 
 
 ## **UX (User Experience)**
@@ -139,24 +166,21 @@ Gemsofparis is a web application that faciliates the sales of various gemstone d
 
 - The website has a user friendly navigation system with colors and contrast well thought to give the user a friendly color ,font and contrast experience.
 
+
 - The website logo was personally designed to suite the website purposes.
 
-### **Colour Scheme**
+![](/README_DOC/website_logo_white.png)
 
+### **Colour Scheme**
 
 The colors used in this project are:
 - (#FFFFFF) - White
 - (#000000) - Black
 - (#FFEA00) - Yellow
-- (#7393B3) - Gray
-- (#008000) - Green
 - (#96DED1) - Robin Egg Blue
 - (#F33A6A) - Red
 
-
-![](/README_DOC/color.jpg)
-
-  - The color combination used give the website a unique, warm and beautiful outlook.
+  - The choice of color combination used provided a unique, warm and beautiful outlook to the website.
 
 ### **Wireframes**
 
@@ -170,45 +194,65 @@ The colors used in this project are:
 
 ### **Site Navigation**
 
-- The web application has numerous ease of access functionality for easy navigation through
-the navigation bar.
+  - The web application has numerous ease of access functionality for easy navigation through
+    the navigation bar.
+  ![](/README_DOC/navigation_bar.jpg)
 
 #### Registertion
-- Users can register/Signup to make a personalized account by clicking on the user icon located on the top right of the navigation bar, there is a drop down menu which instructing the user of either login as an existing user or register as a new user by filling up the registration form with neccessary details i.e username, email address and password.
+  - Users can register/Signup to make a personalized account by clicking on the user icon located on the top right of the navigation bar, there is a drop down menu which instructing the user of either login as an existing user or register as a new user by filling up the registration form with neccessary details i.e username, email address and password.
+
+  ![](/README_DOC/Registration.jpg)
 
 #### Log In, Log Out to and from Account
-- As stated above registered users can securely log in and out using the login/logout buttons on the navigation bar.
+  - As stated above registered users can securely log in and out using the login/logout buttons on the navigation bar.
+
+  ![](/README_DOC/login_link.jpg)
 
 #### View, Search and Sort Products 
-- Located on the main page i.e application home page is a carousel picture slider which displays some products that are on sale , under the carousel capiton you can find a SHOP NOW button in yellow color  which when clicked navigates to the products list. On clicking on a product image, a detailed information about the product will be displayed to the user, the detail information contains Product name, Category, Rating, prices.
+  - Located on the main page i.e application home page is a carousel picture slider which displays some products that are on sale , under the carousel capiton you can find a SHOP NOW button in yellow color  which when clicked navigates to the products list. On clicking on a product image, a detailed information about the product will be displayed to the user, the detail information contains Product name, Category, Rating, prices.
 
-- with the help of the navigation search box positioned at the middle of the navigation bar,a user can search for products by name or by keyword. 
+  - with the help of the navigation search box positioned at the middle of the navigation bar,a user can search for products by name or by keyword. 
 
-- Users can filter or narrow their search by filtering results by category, sort by price, sort in alphabetical order i.e A-Z, or filter prices by Low to High or vice versa.
+  - Users can filter or narrow their search by filtering results by category, sort by price, sort in alphabetical order i.e A-Z, or filter prices by Low to High or vice versa.
+
+![](/README_DOC/view_search_sort.jpg)
+
 
 #### Product details Update
-- Products can be added to bag either a registered or non-registered user once a user navigates to the product details page. Item quantity increase and decrease button can help the user edit the quantity of items to be added to the shopping bag.
+  - Products can be added to bag either a registered or non-registered user once a user navigates to the product details page. Item quantity increase and decrease button can help the user edit the quantity of items to be added to the shopping bag.
+
+![](/README_DOC/product_detail.jpg)
 
 #### User information, Email confirmation and Payment
   - Either a User is registered or not, the user can still checkout regardless of status, user can choose to store their information on their profile or not, generally orders can be completed regardless of the user status, the user will be directed to the appropriate payment page where the order can be completed, if successful an email confirmation is automatically sent to the provided user email address.
 
+  ![](/README_DOC/user_info.jpg)
+
+  ![](/README_DOC/email_confirmation.jpg)
+
+  ![](/README_DOC/payment.jpg)
+
 #### Profiles 
-  - A user can modify, edit or update the informations or previously stored data on their personal profile with ease.
+  - A user can Create, Modify, Edit or Update the informations or previously stored data on their personal profile.
 
 #### Admin or Superuser
-only an authorized personel can have access to the Admin page, as the web application security could be breached from an un-authorized access by infiltrators. However, to gain access to the Admin area an back slash is added to the URL of the web application, which will prompt an authorized login details.
+  - only an authorized personel can have access to the Admin page, as the web application security could be breached from an un-authorized access by infiltrators. However, to gain access to the Admin area an back slash is added to the URL of the web application, which will prompt an authorized login details.
 
   If the Admin login was successful:
   -  A Superuser can Create, Read, Update and Delete product.
   -  A SuperUser can manage orders and authorize orders and restric suspicious users or cancel a suspicious order.
   - SuperUser can maintain the website and make sure everything is up and running.
 
+    ![](/README_DOC/admin_1.jpg)
+    ![](/README_DOC/admin_2.jpg)
+    ![](/README_DOC/admin_3.jpg)
+
 ### Customized Error Handling
 
  - To handle the 404 error, a 404 error handling page was created incase there was a 404 error
  which the soul purpose is to direct the user back to the homepage or product page.
 
-  ![](/README_DOC/error404.jpg)
+  ![](/README_DOC/404error_test.jpg)
 
  - In case of a server error , a 500 error page was created to handle the error and redirect users back to the homepage.
 
@@ -220,9 +264,11 @@ only an authorized personel can have access to the Admin page, as the web applic
 
   - subscribe to newsletter
 
-  - unsub
+  - unsubscribe from newsletter
 
-  ![](/README_DOC/newsletter.jpg)
+  ![](/README_DOC/subscribe.jpg)
+
+  ![](/README_DOC/unsubscribe.jpg)
 
 ### Shipping
 
@@ -239,11 +285,11 @@ only an authorized personel can have access to the Admin page, as the web applic
 
  - @login_required
 
-   -  Addition of the login required decorator to separates a user from some of the website functionality i.e a user cannot use the favorite function if not logged in, also a user cannot modify any details in his or her profile without login in and finally a user cannot access a superuser section of the website or superuser features.
+   -  Addition of the login required decorator to separate a user from some of the website functionality i.e a user cannot use the favorite function if not logged in, also a user cannot modify any details in his or her profile without login in and finally a user cannot access a superuser section of the website or superuser features.
 
  - Form Validation
 
-    - Forms can only be submitted if the required information is supplied correctly.
+   - Forms can only be submitted if the required information is supplied correctly.
 
  - Unauthorised Attempts
 
@@ -299,8 +345,6 @@ only an authorized personel can have access to the Admin page, as the web applic
   - [Google fonts](https://fonts.google.com/)
 
   - [Htmlcolorcodes](https://htmlcolorcodes.com/)
-
-  - [Favicons](https://favicon.io/)
   
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
