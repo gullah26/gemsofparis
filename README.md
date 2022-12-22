@@ -126,19 +126,20 @@ This  web application is an e-commerce web application which provides services
 - As a user I can be able to get an email confirmation of my order after checkout so that I can keep track my order record and purchases.
 
 #### **Payment**
-****************
+***
 
 - As a user I can be able to complete my order with a friendly payment system.
 
 - As a user I want to make payment So that I can successfully complete my order.
 
-#### **Security**.
+#### **Security**
+***
 
 - As a user I can be rest assured that I can feel secure  when putting my informations on the website.
 - As a user I want to feel protect So that I can feel a sense of security.
 
 #### **Management**
-*******************
+***
 
 - As a/an Store Owner** I can be able to Add, Edit/Update and Delete products/items so that I can Add new Items, Change/Edit product prices, modify product descriptions, edit images, Remove/Delete items/Products that are out of stock.
 
@@ -187,7 +188,8 @@ The colors used in this project are:
 ![](/README_DOC/Wireframe.jpg)
 
   - The application wireframe using Figma:
-  
+
+  ![](/README_DOC/wireframe.jpg)  
 
 [Back to contents](#table-of-contents)
 ## **Features**
@@ -198,17 +200,21 @@ The colors used in this project are:
     the navigation bar.
   ![](/README_DOC/navigation_bar.jpg)
 
-#### Registertion
+### **Registertion**
   - Users can register/Signup to make a personalized account by clicking on the user icon located on the top right of the navigation bar, there is a drop down menu which instructing the user of either login as an existing user or register as a new user by filling up the registration form with neccessary details i.e username, email address and password.
 
   ![](/README_DOC/Registration.jpg)
 
-#### Log In, Log Out to and from Account
+
+
+### **Log In, Log Out to and from Account**
   - As stated above registered users can securely log in and out using the login/logout buttons on the navigation bar.
 
   ![](/README_DOC/login_link.jpg)
 
-#### View, Search and Sort Products 
+
+
+### **View, Search and Sort Products**
   - Located on the main page i.e application home page is a carousel picture slider which displays some products that are on sale , under the carousel capiton you can find a SHOP NOW button in yellow color  which when clicked navigates to the products list. On clicking on a product image, a detailed information about the product will be displayed to the user, the detail information contains Product name, Category, Rating, prices.
 
   - with the help of the navigation search box positioned at the middle of the navigation bar,a user can search for products by name or by keyword. 
@@ -218,12 +224,14 @@ The colors used in this project are:
 ![](/README_DOC/view_search_sort.jpg)
 
 
-#### Product details Update
+### **Product details Update**
   - Products can be added to bag either a registered or non-registered user once a user navigates to the product details page. Item quantity increase and decrease button can help the user edit the quantity of items to be added to the shopping bag.
 
 ![](/README_DOC/product_detail.jpg)
 
-#### User information, Email confirmation and Payment
+
+
+### **User information, Email confirmation and Payment**
   - Either a User is registered or not, the user can still checkout regardless of status, user can choose to store their information on their profile or not, generally orders can be completed regardless of the user status, the user will be directed to the appropriate payment page where the order can be completed, if successful an email confirmation is automatically sent to the provided user email address.
 
   ![](/README_DOC/user_info.jpg)
@@ -232,10 +240,12 @@ The colors used in this project are:
 
   ![](/README_DOC/payment.jpg)
 
-#### Profiles 
+
+### **Profiles**
   - A user can Create, Modify, Edit or Update the informations or previously stored data on their personal profile.
 
-#### Admin or Superuser
+
+### **Admin or Superuser**
   - only an authorized personel can have access to the Admin page, as the web application security could be breached from an un-authorized access by infiltrators. However, to gain access to the Admin area an back slash is added to the URL of the web application, which will prompt an authorized login details.
 
   If the Admin login was successful:
@@ -247,16 +257,18 @@ The colors used in this project are:
     ![](/README_DOC/admin_2.jpg)
     ![](/README_DOC/admin_3.jpg)
 
-### Customized Error Handling
+### **Custom Error Handling**
 
  - To handle the 404 error, a 404 error handling page was created incase there was a 404 error
  which the soul purpose is to direct the user back to the homepage or product page.
 
   ![](/README_DOC/404error_test.jpg)
 
+
  - In case of a server error , a 500 error page was created to handle the error and redirect users back to the homepage.
 
-### Newsletter
+
+### **Newsletter**
 
   - The Newsletter app allows user to subscribe and unsubscribe to newsletter, mailchimp marketing API was integrated to handle the subscription email contacts on the mailchimp server.
 
@@ -270,18 +282,18 @@ The colors used in this project are:
 
   ![](/README_DOC/unsubscribe.jpg)
 
-### Shipping
+### **Shipping**
 
   - Information about the shipping , delivery and return policies.
 
   ![](/README_DOC/shipping.jpg)
 
 
-### Responsive Design
+### **Responsive Design**
 
 - This application was tested on all modern available devices, redering perfectly and adjusting to different screen sizes of each and every device it was tested on.
 
-### Defensive Design
+## Defensive Design
 
  - @login_required
 
@@ -310,7 +322,7 @@ The colors used in this project are:
 
   Below is the ER Diagram:
 
-![](/README_DOC/DatabaseER.png)
+![](/README_DOC/databaseER.jpeg)
 
   
 
@@ -322,6 +334,7 @@ The colors used in this project are:
   - HTML5
   - CSS3
   - JavaScript
+  - Python
 ### **Frameworks**
 
 - [Django](https://www.djangoproject.com/)
@@ -331,6 +344,8 @@ The colors used in this project are:
 
 ### **Tools**
   - [Canva](https://canva.com/)
+
+  - [ElephantSQL](https://ElephantSQL.com/)
 
   - [GitHub](https://github.com/)
   
