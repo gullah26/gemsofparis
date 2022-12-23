@@ -89,7 +89,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
+        'DIRS': [ 'templates',
              os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
@@ -251,9 +251,9 @@ else:
 #  mailchimp newsletter config
 
 # Mailchimp credentials
-MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_KEY', '')
+MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_KEY')
 MAILCHIMP_REGION = 'us21'
-MAILCHIMP_MARKETING_AUDIENCE_ID = os.environ.get('MAILCHIMP_AUDIENCE_ID', '')
+MAILCHIMP_MARKETING_AUDIENCE_ID = os.environ.get('MAILCHIMP_AUDIENCE_ID')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

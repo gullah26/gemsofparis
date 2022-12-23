@@ -383,132 +383,106 @@ The colors used in this project are:
 
 [Back to contents](#table-of-contents)
 
-## Manual Testing
-
-  ## Home Page
-
-  ![](/README_DOC/home.jpg)
-
-  - The web application homepage header consist of the following.
-    - Navigation bar located at the top-most part of the page, spanning from left to right.
-
-      ![](/README_DOC/Navigation.jpg)
-
-    - Company logo and logo font located at the left-most part of the navbar.
-
-      ![](/README_DOC/company_logo_and_logo_font.jpg)
-
-    - Search box situated at the middle of the navigation bar, The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
-
-      ![](/README_DOC/search.jpg)
-
-    - The User, Favorite and shopping bag icons can be found at the right-most part of the navigation bar. The User can login and existing account or register a new account using the my account functionlity. Also users can add,remove and view items in their favorite list. The bag contains the added items to purchase.
-
-      ![](/README_DOC/user_fav_bag.jpg)
-
-    - Present on the homepage body is the carousel functionality of image slider which serves as Hero image   but with a dynamic functionality with a SHOP NOW button to navigate to the product display area.
-
-      ![](/README_DOC/hero.jpg)
-
-    - The footer area is located at the bottom-most part of the homepage made up of Newsletter, Shipping, Payment, customer support, Social media and Copy right.
-
-      ![](/README_DOC/footer.jpg)
- 
-
-    - The homepage footer also includes a newsletter signup  and customer support.
-
-      ![](/README_DOC/newsletter.jpg)
-
-      ![](/README_DOC/contact_us.jpg)
-
-
- ## Products
-
- - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
-
-      ![](/README_DOC/products.jpg)
-
-
- - By clicking on add item to bag, a pop up notification shows on bag that an item as been added to the bag, which the User could access by clicking on the bag to check the added item to update the bag by increasing or decreasing the quantity of items or by removing the item.
-
-      ![](/README_DOC/add_to_bag.jpg)
-
-
- ## Checkout 
-
- - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
-
-      ![](/README_DOC/checkout.jpg)
-    
-
-      ![](/README_DOC/check_out_details.jpg)
-
- - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted.
-
-      ![](/README_DOC/purchasedetails.jpg)
-
-      ![](/README_DOC/order_successful.jpg)
-
- - E-mail confirmation will be sent to the supplied emailaddress
-
-
-### Register
-
-  - Here is a detailed registration form which will allow users to create a personalized account.
-
-  ![](/README_DOC/user%20register.jpg)
-
-### Login and Logout
-
-  There were several attempts to log in and out. It performed as intended.
-
-  ![](/README_DOC/singin.jpg)
-
-### E-Commerce App Testing 
+### Application Testing 
 
 - Functional Testing
-  - Checking a web application’s requested functionality in the area of basic usability, its mainline functions, and accessibility is known as functional testing. BVA, decision table testing, and equivalence class testing among many other methods, may be used to create functional test cases for online applications.
-
-The following test cases are a few of many test cases that can be considered for checking the functional testing:
+  - The functionality of the web application was tested in the areas of basic usbaility, mailine functions and accessibity.
 
 - User Interference testing
   - Navigation Testing:
-    - All internal and external links are tested for functionality during the navigation process. Websites must be tested for their ability to deliver reliable, well-organized links, as well as other navigational choices like site maps and search engines. The following checklist can be considered for navigation testing of an e-commerce site:
-        - 1.	Check every link on the site.	An appropriate page should open.
-        - 2.	Click on the back button 	An appropriate page should open.
-        - 3.	Click on every link to see how the material appears on each web page.	The website’s contents    can effectively be read since appropriate horizontal and vertical scroll bars are available.
+    - The internal and external links are tested for working functionlity and works perfectly during the navigation process.The application was desingned with ability to deliver a reliable, well organized functional links to access or navigate to other parts of the application, also the search functionlity engine is working perfectly:
 
-  - Form-Based Testing:
-    - Forms on websites must be tested to ensure that all fields function properly. These types of forms on e-commerce sites can be seen while the user is registering or when the user is filling in billing and shipping details. Form-based testing checks the following concerns: 
+      -  Home page: The links to important pages should be visible and functional, correct images and         text are visible on the main page.
+            -   ![](/README_DOC/home_page.jpg)
 
-      - Correct use of the tab key to go from one form field to another.
-      - Verifies that the data submitted in the form is in the correct format. 
-      - Verifies that all necessary fields are filled out on the form.
+            - The web application homepage header consist of the following.
 
-- Security Testing
-  - Security is the process of protecting data from numerous attacks. When interacting across a network, it is necessary to secure sensitive and critical information and data. The user wishes to have a safeguard in place to protect personal, sensitive, and financial information. We want data that is accurate, dependable, and secure against illegal access.
-    - Authentication: Is the data sent by an authorized user?
-    - Access Control: Is data secure against unauthorized users? 
-    - Transparency: Does the user receive exactly what is sent? 
-    - Delivery: Is the information reaching the intended recipient? 
-    - Reliability: How frequently does a failure occur? How long does it take for the network to recover after a failure?
+            - Navigation bar located at the top-most part of the page, spanning from left to right.
+
+            - Company logo and logo font located at the left-most part of the navbar.
+
+            - Search bar situated at the middle of the navigation bar, The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
+
+            - The User, Favorite and shopping bag icons can be found at the right-most part of the navigation bar. The User can login and existing account or register a new account using the my account functionlity. Also users can add,remove and view items in their favorite list. The bag contains the added items to purchase.
+
+            - Present on the homepage body is the carousel functionality of image slider which serves as Hero image   but with a dynamic functionality with a SHOP NOW button to navigate to the product display area.
+
+            - The footer area is located at the bottom-most part of the homepage made up of Newsletter, Shipping, Payment, customer support, Social media and Copy right.
+
+              ![](/README_DOC/footer.jpg)    
+
+
+      - Each and every link on the app was tested and all appropriate page are working as they should.
+
+      - The back button on every page works.
+
+      - The application contents and links can be read without problem.
+
+
+      - Products:
+
+            - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
+
+          ![](/README_DOC/products_render.jpg)
+
+
+            - By clicking on add item to bag, a pop up notification shows on bag that an item as been added to the bag, which the User could access by clicking on the bag to check the added item to update the bag by increasing or decreasing the quantity of items or by removing the item.
+
+
+      - Checkout: 
+
+            - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
+
+
+
+          ![](/README_DOC/checkout_form.jpg)
+            &nbsp; 
+
+
+            - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted and E-mail confirmation will be sent to the supplied emailaddress.
+
+          ![](/README_DOC/email_confirmation.jpg)
+
+
+      - Register:
+
+            - Here is a detailed registration form which will allow users to create a personalized account.
+
+          ![](/README_DOC/Registration.jpg)
+
+      - Login and Logout
+
+        There were several attempts to log in and out. It performed as intended.
+
+          ![](/README_DOC/login.jpg)
+          ![](/README_DOC/login_link.jpg)
+              
+
+- Form-Based Testing:
+  - All form fields were tested for proper functionality:
+  - Form field navigation from one field to another functions as it should.
+  - Data check for correct form input field format works fine. 
+  - Check that all appropriate field are completed to allow submission.
+
+- Security Testing:
+  - Integrated in the application are external resousces that protects user and website  data in encryption with a highend security and data integrity protection:
+  - Authentication: Critical data on the app cannot be accessed without authentication?
 
 - Browser compatibility Testing:
-  - There are several browsers available, and each of them behaves differently. Although testing the web application with all browsers is impracticable, it is vital to validate the web application with defined and prioritized platforms to assure proper operation. A browser compatibility matrix may be developed to test the web application on multiple browsers.
+  - The app was tested and works fine on firefox, chrome.
 
 - Load and stress Testing
-  - Stress testing is running a web application under more than maximum and changing loads for extended periods of time. Unlike performance and load testing, stress testing assesses the system’s response when it is subjected to a load that exceeds its defined limitations. It is also used to monitor and test the dependability of a web application when available resources are being exploited beyond their maximum capacity. The system’s behavior is observed to identify when the system under stress test fails and how it recovers from the failure.
+  - This is testing that will be included in future.
 
-  - Load testing comprises simulating several users accessing the web application at the same time to test the web application under real-world conditions. It puts the web application through its paces by overloading it. Load testing plans should be developed as early as practicable in the software life cycle. Load testing includes the following measures to guarantee adequate performance during peak hours.
 
 - Database Testing
-  - E-commerce is database-driven, it is critical that these apps function effectively and protect the user’s sensitive data, such as personal information and credit card information. Data-centric web applications must be tested to ensure error-free functioning and greater client satisfaction. Consider the following scenario: you want to buy something from an online retailer. When a user does a search using keywords and pricing preferences, the database server generates a database query. If the query does not take into account the customer’s price choices owing to a programming error, the results will be incorrect. During database testing, several types of defects must be verified and eliminated.
+  - The use of external database like ElephantSQL for the application database, gives a sense of security that the app user sensitive data, personal informations are effectivley protected.
 
-### Features tested in this web application
 
-  - Home page: The links to important pages should be visible and functional, correct images and text are visible on the main page.
+- Payment Testing
+  - The integration of STRIPE for handling all forms of payment data, creditcard informations gives the user a sense of security.
 
-  - Payment function: At this step, security testing comes into the picture. A number of variables need to be tested here like Debit/ Credit card details, can the customer pay in installments, the generation of order confirmation and receipt, etc.
+  - Payment function: At this step, security testing comes into the picture. A number of variables need to be tested here like Debit/ Credit card details, can the customer pay in installments, the generation of order confirmation and receipt, etc.  
 
   - Order processing mechanism: At the time of placing the order, the users should be able to select the preferred shipping method, the address should be correctly mapped to the order, etc.
 
@@ -554,87 +528,168 @@ The following test cases are a few of many test cases that can be considered for
 
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
   - base.css
-  - responsiveness.css
   - profile.css
   - footer.css
 
-    ![](/README_DOC/W3C_testing.jpg)
+  ![](/README_DOC/w3c_testing.jpg)
+
 ### Other testing 
 - This application was tested to meet with the requirements of all modern devices, it is responsive.
-
-    ![](/README_DOC/google_mobile_test.jpg)
 
 
 
 ### Bugs fixed
 
-- There was a checkout issue when making the final payment, and was fixed
+- There was an email sending for purchases and registration, and was fixed.
 
 ### Un-fixed Bug 
 
-- There was a layout gap on both sides the navigation bar
+- There was a problem with the subscribe and unsubscribe app that makes the process fail which will be fixed later.
+  ![](/README_DOC/w3c_testing.jpg)
+
+- There was a w3c validator warning The first occurrence of ID  and a Duplicate ID error which will be fixed later.
+
+  ![](/README_DOC/subscribe_fail.jpg)
 
 
 [Back to contents](#table-of-contents)
 
 ## Deployment
 
-### Deployment to Heroku
+### Create an External Database
+
+1. Navigate to [ElephantSQL](https://www.ElephantSQL.com/) and click **Get a managed database today**.
+
+2. Select **Try now for FREE** in the TINY TURTLE database plan
+
+3. Select **Log in with GitHub** and authorize ElephantSQL with your selected GitHub account.
+
+4. In the Create new team form:
+  - Add a team name (your name or any other unique name is ok).
+  - Read and agree to the Terms of Service.
+  - Select **Yes** for GDPR.
+  - Provide your email address.
+  - Click **Create Team**.
+
+5. Your account will be successfully created!
+
+6. Log in to created ElephantSQL account to access your dashboard.
+
+7. Click **Create New Instance**
+
+8. Set up your plan
+
+  - Give your plan a Name (this is commonly the name of the project)
+  - Select the Tiny Turtle (Free) plan.
+  - You can leave the Tags field blank.
+
+9. Select **Select Region**
+
+10. Select a data center nearest to you.
+
+11. Then click **Review**
+
+12. Double check your details for errors and then click **Create instance**
+
+13. Return to the **ElephantSQL** dashboard and click on the database instance name for this project.
+
+14. In the URL section, clicking the copy icon will copy the database URL to your clipboard.
+
+15. head to Heroku
+### To Heroku
 
 This project was deployed to [Heroku](https://www.heroku.com/). Below is a step by step deployment process:
 
-1. Go to Heroku website and register as user
-2. Create a new app
-3. Navigate to the "Resources" tab and search for Heroku Postgres.
-4. In order to use PostgreSQL, both packages `dj_database_url` and `psycopg2` have to be installed on Gitpod.
-5. Import `dj_database_url` into the project's [`settings.py`](/gem_master/settings.py) to setup new database.
-6. Disable the default database(SQLite) in the project's [`settings.py`](/gem_master/settings.py) and add the PostgreSQL database URL stored in the variable `DATABASE_URL`(can be found by clicking on the "settings" tab followed by clicking on "reveal config vars") in order to connect to PostgreSQL.
-7. Run migrations (due to the use of PostreSQL) on Gitpod.
+1. navigate to [Heroku](https://www.heroku.com/) website and register as user.
+
+2. Create a new app.
+
+3. Give your app a unique name.
+
+4. navigate to the Settings Tab.
+
+5. Add the config var **DATABASE_URL**, and for the value, copy in your database url without quatation marks from ElephantSQL.
+
+6. In the terminal, install **dj_database_url** and **psycopg2**, `pip3 install dj_database_url==0.5.0 psycopg2` both of these are needed to connect to your external database.
+
+7. Update your **requirements.txt** `pip freeze > requirements.txt` file with the newly installed packages.
+
+8. In your **settings.py** file, **import dj_database_url** underneath the import for os.  `import os, import dj_database_url`.
+
+9. Scroll to the DATABASES section and update it to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL in the position indicated.
+  - `DATABASES = {`
+     `'default': {`
+           `'ENGINE': 'django.db.backends.sqlite3',`
+          `'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),`
+       `}`
+     `}`
+     
+ `DATABASES = {`
+     `'default': dj_database_url.parse('your-database-url-here')`
+ `}`
+
+ **NOTE:**
+ ***
+DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.
+
+
+10. In the terminal, run the showmigrations command to confirm you are connected to the external database.
+    - `python3 manage.py showmigrations`
+    If it's done correctly, you should see a list of all migrations, but none of them are checked off.
+
+
+11. Migrate your database models to your new database.
+
+    - `python3 manage.py migrate`
+
+
+12. Load in the fixtures. Please note the order is very important here. **We need to load categories first**
+    - `python3 manage.py loaddata categories`
+
+13. Then products, as the products require a category to be set
+
+    - `python3 manage.py loaddata products`
+
+14. Create a superuser for your new database and Follow the steps to create a your superuser username and   password. The email address can be left blank.
+
+    - `python3 manage.py createsuperuser`
+
+15. Finally, to prevent exposing our database when we push to GitHub, we will delete it again from our **settings.py**, your DATABASE setting in the **settings.py** file should look like this.
+
+      `DATABASES = {`
+            `'default': {`
+                `'ENGINE': 'django.db.backends.sqlite3'`,
+                `'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),`
+            }
+       ` }`
+
+
+16. In the project's [`settings.py`](/gemsofparis/settings.py), re-enable the project's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
+
+17. Install `gunicorn` package on Gitpod
+
+18. Create Procfile
+
+19. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
 
     ```
-    $ python3 manage.py migrate
+    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app gemsofparis
     ```
 
-8. Load data (Categories and Products JSON files in the [`fixtures`](/products/fixtures) folder).
-- Load categories first 
+14. Add `ALLOWED_HOSTS` variable(containing host name of the premium body app and the localhost) to project's [`settings.py`](/gemsofparis/settings.py) file.
 
-    ```
-    $ python3 manage.py loaddata categories
-    ```
-
-- Then load products
-
-    ```
-    $ python3 manage.py loaddata products
-    ```
-
-9. Create superuser:
-
-    ```
-    $ python3 manage.py createsuperuser 
-    ```
-
-10. In the project's [`settings.py`](/gem_master/settings.py), re-enable the projec's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
-11. Install `gunicorn` package on Gitpod
-12. Create Procfile
-13. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
-
-    ```
-    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app gem-master
-    ```
-
-14. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/gem_master/settings.py) file.
 15. Commit and Push to Github
+
 16. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
 
     ```
-    $ heroku git:remote -a gem-master
+    $ heroku git:remote -a gemsofparis
     ```
 
 17. Push to Heroku
 
     ```
-    $ git push heroku master
+    $ git push heroku main
     ```
 
 18. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the gem-master repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
@@ -644,19 +699,131 @@ This project was deployed to [Heroku](https://www.heroku.com/). Below is a step 
 
  ### Amazon Services (S3)
  
-Amazon Web Services(AWS) - S3 was deployed to handle  media and static files storage in gem-master app after being deployed by Heroku.
+Amazon Web Services(AWS) - S3 was deployed to handle  media and static files storage in gemsofparis app after being deployed by Heroku. Here are the step by step configuration.
+
+1. Navigate to [AWS](https://signin.aws.amazon.com) click on **Create a new AWS account**.
+
+2. Under the find services search bar search for  **S3**, then **Create bucket**.
+  - **NOTE**: When creating a bucket there are a few configuration options to be set.
+    - Select Region closest to you.
+    - Bucket Settings for Block Public Access
+      - uncheck **block all public access** and acknowledge that the bucket will be public.
+    - Click on create bucket.
+
+
+3. Navigate to the Newly created Bucket,  there you will have to configure some basic settings.
+    - Objects:
+    - Properties 
+      - Static website hosting:
+       - Click on Edit , Enable static website hosting.
+      - Hosting type:
+       - choose Host a static website
+      - Index document , Enter index.html
+
+      - Error document - Enter Error.html
+
+      - Then Click **SAVE**
+
+
+    - on the Permissions tab
+      - scroll down to Cross-origin resource sharing (CORS)
+      - click Edit and in the text area paste and **SAVE CHANGES**
+              - `[`
+              `{`
+                `"AllowedHeaders": [`
+                  `"Authorization"`
+                `],`
+                `"AllowedMethods": [`
+                  `"GET"`
+                `],`
+                `"AllowedOrigins": [`
+                    `"*"`
+                `],`
+                `"ExposeHeaders": []`
+                `}`
+                `]`
+      - Scroll down to Bucket policy tab, click edit, click policy generator.
+          - on the policy generator page select the following:
+            1. Select type of Policy: S3 Bucket Policy.
+            2. Add Statement(s):
+              - Effects: Allow
+              - Principal: `*`
+              - AWS Service: Amazon S3
+              - Actions: GetObject
+              - Amazon Resources Name (ARN) : your amazon bucket ARN from bucket policy editor tab
+          - Add statement and Generate policy then copy the generated policy to bucket policy editor tab, then add `/*` to the end of `"Resource": arn:aws:s3:::your arn key /*` and click on **SAVE**.
+          this settings will now allow full access to resources from the bucket.
+
+      - Scroll down to Access control list (ACL), click Edit, check Everyone (public access) check box.
+      check I understand the effects of these changes on my objects and buckets box and **SAVE CHANGES**.
+    
+    - Metrics
+    - Management
+    - Access Points
+
+4. In the services search bar search for IAM (IDENTITY AND ACCESS MANAGEMENT).
+
+    - Click on User Group on the left sidebar of IAM dashboard.
+      - Click Create  group, choose a unique name, click next step, and then next step again since we don't have a policy to attach yet and finally, create group.
+    - Create Policy 
+      - At the left sidebar click on Policies, Create Policy, Choose the JSON Tab.
+      - Click on import managed policy, on the next page search bar search for S3 and choose AmazonS3FullAccess, then click on import.
+      - get your created bucket ARN on your Bucket policy page, and paste it at the `"Resource":` JSON tab 
+       with one with `/*` and one without `/*`, then click on review policy , give your policy a name and a description, finally click create policy, you will be taken back to the policy page where you can see the policy as been created.
+    - Attach Policy:
+      - go to Groups, click on the appropriate group name, click attach policy, on the top bar search for the newly created policy, check theright group and click attach policy.
+    - Create User to put in the Group at the sidebar, click on Users, Add user, input your user name choice.
+      - check the access type to programmatic access, then click next permissions, now add the created user to the group, click next tag to the end and then create user, then download the csv file that contains the access key and secret access key. which will be used for authentication from django app.
+
+5. Connect Django App to AWS:
+    - In the terminal install `pip3 install boto3`
+    - In the terminal install `pip3 install django-storages`
+    - In the terminal  `pip3 freeze > requirements.txt`
+    - in djgo settings.py add `storages` to the installed apps
+    - in the app settings.py , add the following code
+        - `if 'USE_AWS' in os.environ:`
+              `AWS_S3_OBJECT_PARAMETERS = {`
+                  `'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',`
+                  `'CacheControl': 'max-age=94608000',`
+              `}`
+
+              `AWS_STORAGE_BUCKET_NAME = 'your bucket name'`
+              `AWS_S3_REGION_NAME = 'your bucket region'`
+              `AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')`
+              `AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')`
+              `AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'`
+
+6. Go to Heroku settings, Reveal the config VAR, Add the AWS Varibales to Config VAR, set `USE_AWS to True`
+
+7. In the project root directory create `custom_storages.py` and put the following code
+      - `from django.conf import settings`
+        `from storages.backends.s3boto3 import S3Boto3Storage`
+
+        `class StaticStorage(S3Boto3Storage):`
+            `location = settings.STATICFILES_LOCATION`
+
+
+        `class MediaStorage(S3Boto3Storage):`
+            `location = settings.MEDIAFILES_LOCATION`
+  
+8.  Tell Django what location to store staticfiles , so from the app settings.py put 
+      - `STATICFILES_STORAGE = 'custom_storages.StaticStorage'`
+        `STATICFILES_LOCATION = 'static'`
+        `DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'`
+        `MEDIAFILES_LOCATION = 'media'`
 
  ## Web Marketing & Business
 
  - A web marketing facebook page was created  [Facebook](https://www.facebook.com/profile.php?id=100086998397922&sk=photos/)
 
- ![](/README_DOC/facebook_marketing_page.jpg)
+ ![](/README_DOC/facebook_page.jpg)
 
 ## Credits
 
 ### Media
 
 -   The product images was taken from Kaggle [Kaggle](https://Kaggle.com/).
+
 -   The Carousel and Hero images were taken from Pexels [Pexels](https://pexels.com/).
 
 **Django Documentation**
@@ -673,24 +840,30 @@ Amazon Web Services(AWS) - S3 was deployed to handle  media and static files sto
 
 **Dennis Chmielewski**
 - [Github](https://github.com/dennisdevio)
-    - The code for the contact app was taken from this Dennis Devio
+    - The code for the contact app was taken from this github user Dennis Devio
 
 
 **Master Code Online**
 - [Youtube](https://www.youtube.com/watch?v=yZPgBThZT04&list=PL_557Q1uZ7gKYcVQtDYFvYONKtwtguF03&index=7)
 
-    - A youtube learning platform was used for the functionality of the Newsletter app.
+    - A youtube learning platform was used for the functionality of the Newsletter app and 
+
+  [MailChimp](https://testdriven.io/blog/django-mailchimp/)
 
 **Kenbrotech**
 - [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
 
+**Geeksforgeeks**
+- [Geeksforgeeks](https://www.geeksforgeeks.org/software-testing-how-to-test-an-e-commerce-website/)
 
-* The github link is  [Gemsofparis](https://github.com/gullah26/Gem-master "Gem Master").
+
+* The github link is  [Gemsofparis](https://github.com/gullah26/gemsofparis "Gem Master").
 
 * Admin details will be attached to the submission form.
 
 ## Thank you.
 -   A major part of the logic and web application structure used in the Gemsofparis project was taken from code institute walk through project [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+
 
 
 [Back to contents](#table-of-contents)

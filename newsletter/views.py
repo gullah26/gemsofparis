@@ -5,8 +5,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from mailchimp_marketing.api_client import ApiClientError
 import logging
-
-
+import hashlib
 
 from gemsofparis import settings
 from newsletter.forms import EmailForm
