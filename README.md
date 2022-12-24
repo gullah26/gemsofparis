@@ -531,10 +531,12 @@ The colors used in this project are:
   - profile.css
   - footer.css
 
-  ![](/README_DOC/w3c_testing.jpg)
+  ![HTML](/README_DOC/w3c_testing.jpg)
+
+  ![CSS](/README_DOC/w3c_css_testing.jpg)
 
 ### Other testing 
-- This application was tested to meet with the requirements of all modern devices, it is responsive.
+- This application was tested to meet the requirements of all modern devices, it is responsive.
 
 
 
@@ -550,6 +552,8 @@ The colors used in this project are:
 - There was a w3c validator warning The first occurrence of ID  and a Duplicate ID error which will be fixed later.
 
   ![](/README_DOC/subscribe_fail.jpg)
+
+- There was a w3c 757 css  validator warning which seems to be a force alert as all css codes were properly checked and meets the standard css requirments.
 
 
 [Back to contents](#table-of-contents)
@@ -826,6 +830,10 @@ Amazon Web Services(AWS) - S3 was deployed to handle  media and static files sto
 
 -   The Carousel and Hero images were taken from Pexels [Pexels](https://pexels.com/).
 
+-   The Gemstone names was copied from [BulkGemstones](https://www.bulkgemstones.com/guide-to-gem-cuts-and-shapes-by-bulk-gemstones/)
+
+
+
 **Django Documentation**
 - Django has an amazing documentation with a tutorial project and in depth explanations on core components.
 - [Django Documentation ](https://docs.djangoproject.com/en/3.2/)
@@ -854,7 +862,10 @@ Amazon Web Services(AWS) - S3 was deployed to handle  media and static files sto
 - [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
 
 **Geeksforgeeks**
-- [Geeksforgeeks](https://www.geeksforgeeks.org/software-testing-how-to-test-an-e-commerce-website/)
+- Testing inspiration [Geeksforgeeks](https://www.geeksforgeeks.org/software-testing-how-to-test-an-e-commerce-website/)
+
+**Ordinary Coders**
+- footer inspiration from [Ordinarycoders](https://ordinarycoders.com/blog/article/bootstrap-footers/)
 
 
 * The github link is  [Gemsofparis](https://github.com/gullah26/gemsofparis "Gem Master").
