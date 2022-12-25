@@ -11,7 +11,10 @@ class ProductAdmin(admin.ModelAdmin):
         'price',
         'rating',
         'image',
+        'img_preview',
     )
+
+    readonly_fields = ['img_preview']
 
     ordering = ('sku',)
 

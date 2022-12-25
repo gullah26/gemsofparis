@@ -36,7 +36,7 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-    def image_preview(self): #new
-        return mark_safe(f'<img src="{self.image.url}" width = "300"/>')
+    def img_preview(self): #new
+        return mark_safe(f'<img src="{self.image.url}" width = "130"/>')
     
 
