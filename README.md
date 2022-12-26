@@ -551,16 +551,27 @@ The colors used in this project are:
 
 - There was an email sending for purchases and registration, and was fixed.
 
-### Un-fixed Bug 
+- Heroku internal server error bug fixed.
+
+- Heroku deployment stuck at DISABLE_COLLECTSTATIC fixed
+
+
+- AWS S3 bucket won't collectstatic fixed
+
+### Un-fixed Bug un-implemented Functionalities
 
 - There was a problem with the subscribe and unsubscribe app that makes the process fail which will be fixed later.
-  ![](/README_DOC/w3c_testing.jpg)
-
-- There was a w3c validator warning The first occurrence of ID  and a Duplicate ID error which will be fixed later.
 
   ![](/README_DOC/subscribe_fail.jpg)
 
+- The favorite Icon onclick to function to add or remove products to favorites/whislist was scheduled for future implementations.  
+
+- There was a w3c validator warning The first occurrence of ID  and a Duplicate ID error which will be fixed later.
+
+  
+
 - There was a w3c 757 css  validator warning which seems to be a force alert as all css codes were properly checked and meets the standard css requirments.
+
 
 
 [Back to contents](#table-of-contents)
