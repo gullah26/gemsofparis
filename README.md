@@ -538,6 +538,13 @@ The colors used in this project are:
 ### Other testing 
 - This application was tested to meet the requirements of all modern devices, it is responsive.
 
+- Google lighthouse report and Google mobile friendly test
+
+![CSS](/README_DOC/google_light_house_report.jpg)
+
+![CSS](/README_DOC/google_mobile_friendly_test.jpg)
+
+
 
 
 ### Bugs fixed
