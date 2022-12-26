@@ -54,7 +54,7 @@
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border text-center shadow-lg p-3 mb-5 bg-white rounded">
-                                <div class="text-right text-primary">
+                                <div class="text-right">
                                     <i class="fas fa-heart fa-lg"></i>
                                   </div>
                                 {% if product.image %}
@@ -157,5 +157,13 @@
                 window.location.replace(currentUrl);
             }
         })
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('fa-heart').click(function() {
+                $(this).toggleClass("red white");
+            });
+        }
     </script>
 {% endblock %}

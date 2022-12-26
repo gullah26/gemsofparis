@@ -141,6 +141,23 @@ body {
     z-index: -1;
 }
 
+
+
+/* ====favourite click toggle=====*/
+
+.red {
+
+    color: red;
+}
+
+.white {
+
+    color: rgb(253, 253, 253);
+}
+
+
+
+
 /* ====Cart notification=====*/
 
 .badge-notification {
