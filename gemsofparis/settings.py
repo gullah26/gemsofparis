@@ -26,7 +26,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =  False
+# DEBUG =  'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['gemsofparis.herokuapp.com', 'localhost']
 
@@ -79,6 +80,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+     'django.middleware.common.BrokenLinkEmailsMiddleware', # send an email if 404 error occur
 ]
 
 ROOT_URLCONF = 'gemsofparis.urls'
